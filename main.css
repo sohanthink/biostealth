@@ -184,13 +184,48 @@ ol {
     width: 400px;
 }
 
+.touchable .touchable_content .touchable_bottom {
+    padding-top: 40px
+}
+
 /* ------------------------------------------------------
 --------- usability sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
+.usability {
+    background-color: #AEB3D2;
+    padding: 80px 0;
+}
 
 .usability .usability_content h2 {
     font-size: 100px;
+    color: #5a67b2;
 }
+
+.usability .usability_content p {
+    font-size: 38px;
+    padding-right: 200px;
+}
+
+.usability .usability_bottom {
+    background-color: #5a67b2;
+    margin-right: 20%;
+    padding: 20px 0;
+    border-radius: 0 50px 50px 0px;
+    margin-top: 40px;
+}
+
+.usability .usability_bottom h3 {
+    font-style: italic;
+    color: white;
+    padding-left: 20px;
+    font-size: 70px;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 1200px) {
     .container {
