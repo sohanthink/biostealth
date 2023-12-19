@@ -192,7 +192,8 @@ ol {
 --------- usability sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
 .usability {
-    background-color: #AEB3D2;
+    /* background-color: #AEB3D2; */
+    background: linear-gradient(90deg, #A7ADCF 0%, #D6D8E8 100%);
     padding: 80px 0;
 }
 
