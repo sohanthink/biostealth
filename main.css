@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.menu {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.menu nav img {
+    width: 35%;
+}
+
+.menu nav ul li {
+    padding: 10px 20px;
+}
+
+.menu nav ul li a {
+    color: white;
+}
+
+/* .menu nav .nav-item.active {
+    color: black !important;
+    background-color: red;
+} */
+
+.menu nav ul li .dropdown-menu a {
+    color: rgb(0, 0, 0);
+}
+
+.menu nav ul li .contact_btn {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+/* ------------------------------------------------------
+--------- Banner Css Starts from here- ------------------
+------------------------------------------------------ */
+
+.banner .content {
+    background-image: url(./images/home-1-surface+hand+light.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner .content h2 {
+    padding: 325px 0;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+/* ------------------------------------------------------
+--------- live data sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+.live {
+    background-image: url(./images/Data\ Frames\ background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.live .main {
+    padding: 190px 0;
+}
+
+.live .main h2 {
+    font-size: 100px;
+    color: #5a67b2;
+}
+
+.live .main h4 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.live .main h5 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.live .main p {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    padding: 70px 30px;
+}
+
+.live .main span {
+    color: orange;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------
+--------- touchable sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+.touchable {
+    padding: 50px 0;
+}
+
+.touchable .touchable_content p {
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #5a67b2;
+}
+
+.touchable .touchable_content .touchable_image img {
+    width: 100%;
+}
+
+.touchable .touchable_content .touchable_image {
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.touchable .touchable_content .touchable_description {
+    font-size: 35px;
+    padding-top: 80px;
+    color: black;
+}
+
+.touchable .touchable_content .touchable_image::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #5a67b2;
+    width: 400px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 90% !important;
+    }
+
+}
