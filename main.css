@@ -361,3 +361,24 @@ ol {
     font-weight: 300;
     padding: 18px 195px 0 195px;
 }
+
+/* ------------------------------------------------------
+--------- partners sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+
+.partners {
+    padding: 150px 0;
+}
+
+.partners h2 {
+    font-size: 59px;
+    font-weight: 300;
+    color: #3d3d3d;
+    text-align: center;
+    padding: 0px 0 100px 0;
+}
+
+/* ------------------------------------------------------
+--------- updates section Css Starts from here- ------
+------------------------------------------------------ */
