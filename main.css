@@ -140,8 +140,8 @@ ol {
 }
 
 .live .main span {
-    color: orange;
-    font-size: 20px;
+    color: rgb(217, 142, 4);
+    font-size: 25px;
 }
 
 /* ------------------------------------------------------
@@ -271,6 +271,23 @@ ol {
 .usability2 .usability_content h2 {
     font-size: 100px;
     color: #5a67b2;
+    font-weight: bold;
+}
+
+.usability2 .usability_content .parent {
+    position: relative;
+}
+
+.usability2 .usability_content .ext {
+    position: absolute;
+    left: 58%;
+    top: -5px;
+}
+
+.usability2 .usability_content span {
+    color: rgb(217, 142, 4);
+    font-size: 40px;
+    font-weight: 400;
 }
 
 
@@ -278,6 +295,12 @@ ol {
     font-size: 36px;
     padding-right: 65px;
     font-weight: 300;
+}
+
+.usability2 .usability_content p span {
+    font-size: 42px;
+    font-style: italic;
+    color: black;
 }
 
 .usability2 .usability_bottom {
@@ -292,4 +315,49 @@ ol {
     font-style: italic;
     color: white;
     font-size: 60px;
+}
+
+/* ------------------------------------------------------
+--------- comited sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+
+.commited {
+    background-image: url(./images/Competitive\ proposition.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.commited .one h3 {
+    font-size: 46px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.commited .two {
+    padding: 20px 0;
+}
+
+.commited .two h4 {
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.commited .two h4::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #5a67b2;
+    width: 285px;
+}
+
+.commited .two p {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 18px 195px 0 195px;
 }
