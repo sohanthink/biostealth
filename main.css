@@ -197,6 +197,7 @@ ol {
 /* ------------------------------------------------------
 --------- usability sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
+
 .usability {
     /* background-color: #AEB3D2; */
     background: linear-gradient(90deg, #A7ADCF 0%, #D6D8E8 100%);
@@ -211,8 +212,11 @@ ol {
 
 }
 
-.usability .main .left {
-    width: 120%;
+/* .usability .main .left {
+    width: 950px;
+} */
+.usability .main .right {
+    width: 40%;
 }
 
 .usability .usability_content h2 {
@@ -220,10 +224,10 @@ ol {
     color: #5a67b2;
 }
 
+
 .usability .usability_content p {
     font-size: 36px;
-    padding-right: 165px;
-    line-height: 48px;
+    padding-right: 60px;
     font-weight: 300;
 }
 
@@ -242,15 +246,50 @@ ol {
     font-size: 60px;
 }
 
+/* ------------------------------------------------------
+--------- usability2 sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+.usability2 {
+    /* background-color: #AEB3D2; */
+    background: linear-gradient(90deg, #A7ADCF 0%, #D6D8E8 100%);
+    padding: 80px 0;
+}
+
+.usability2 .main {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.usability2 .main .right {
+    width: 40%;
+}
+
+.usability2 .usability_content h2 {
+    font-size: 100px;
+    color: #5a67b2;
+}
 
 
+.usability2 .usability_content p {
+    font-size: 36px;
+    padding-right: 65px;
+    font-weight: 300;
+}
 
+.usability2 .usability_bottom {
+    background-color: #5a67b2;
+    margin-left: 20%;
+    padding: 20px 0;
+    border-radius: 60px 0px 0px 60px;
+    margin-top: 40px;
+}
 
-
-
-/* @media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 90% !important;
-    }
-
-} */
+.usability2 .usability_bottom h3 {
+    font-style: italic;
+    color: white;
+    font-size: 60px;
+}
