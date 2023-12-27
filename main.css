@@ -461,6 +461,8 @@ ol {
 
 
 
+
+
 /* ------------------------------------------------------
 --------- about_founder section Css Starts from here- ----
 ------------------------------------------------------ */
@@ -474,7 +476,7 @@ ol {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    padding: 300px 50px;
+    padding: 150px 50px;
 }
 
 .about_founder .container p {
@@ -482,3 +484,221 @@ ol {
     padding: 0 50px;
     line-height: 60px;
 }
+
+
+
+/*  ============================
+        core team part start
+   ===============================*/
+#index-team {
+    padding-top: 68px;
+    padding-bottom: 112px;
+}
+
+#index-team .team-header p {
+    padding-left: 40px;
+    padding-bottom: 68px;
+}
+
+#index-team .team-member-slider .memberImages {
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px;
+    transition: all linear 0.4s;
+}
+
+#index-team .team-member-slider .memberImages:hover {
+    background: #f2f3f5;
+    border-radius: 6px
+}
+
+
+
+#index-team .team-member-slider .memberImages .member-img {
+    position: relative;
+    border-radius: 7px;
+    text-align: center;
+    margin: 100px 25px 0px 25px
+}
+
+#index-team .team-member-slider .memberImages .member-img img {
+    height: auto;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content {
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 7px;
+    transition: all linear 0.1s;
+    color: #5a67b2;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content h3 {
+    color: #5a67b2;
+    padding-bottom: 20;
+    font-style: normal;
+    white-space: normal;
+    font-size: 26px;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content h4 {
+    padding-bottom: 20px;
+    color: #5a67b2;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content p {
+    color: #5a67b2;
+    text-align: center;
+    white-space: normal;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content:hover {
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content h4 {
+    font-size: 21px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content:hover h3 {
+    top: 38%;
+    transition: all linear 0.3s;
+}
+
+#index-team .team-member-slider .memberImages .member-img .memeber__content:hover p {
+    bottom: 20%;
+    transition: all linear 0.3s;
+}
+
+#index-team .team-member-slider .memberImages img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#index-team .team-member-slider .membersDetails {
+    text-align: center;
+    padding-top: 27px;
+}
+
+#index-team .team-member-slider .membersDetails .memberItem {
+    float: left;
+    text-align: center;
+}
+
+#index-team .team-member-slider .membersDetails .memberItem h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5a67b2;
+    padding-bottom: 8px;
+}
+
+#index-team .team-member-slider .membersDetails .memberItem p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5a67b2;
+    padding-bottom: 65px;
+}
+
+#index-team .m-btn {
+    padding: 0px 13px 0 50px;
+    position: relative;
+    font-size: 18px;
+    -webkit-transition: all linear 0.3s 0s;
+    -moz-transition: all linear 0.3s 0s;
+    -o-transition: all linear 0.3s 0s;
+    transition: all linear 0.3s 0s;
+}
+
+#index-team .m-btn i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: transparent;
+    color: white;
+    -webkit-transition: all linear 0.3s 0s;
+    -moz-transition: all linear 0.3s 0s;
+    -o-transition: all linear 0.3s 0s;
+    transition: all linear 0.3s 0s;
+}
+
+#index-team .m-btn:hover i {
+    color: #5a67b2;
+}
+
+#index-team .modal-dialog {
+    max-width: 70%;
+}
+
+#index-team .modal-dialog .modal-content {
+    border-radius: 15px;
+    padding: 0px 50px;
+}
+
+#index-team .modal {
+    background: #00000036;
+}
+
+#index-team .modal .modal-header {
+    padding: 0;
+    padding-top: 25px;
+    border-bottom: 0px;
+}
+
+#index-team .modal .modal-body .team_user_avata {
+    padding: 20px 0px 20px 120px;
+    position: relative;
+}
+
+#index-team .modal .modal-body .team_user_avata img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+#index-team .modal .modal-body .team_user_avata h3 {
+    text-align: left;
+    font-size: 27px;
+    font-style: normal;
+
+}
+
+#index-team .modal .modal-body .team_user_avata h4 {
+    text-align: left;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#index-team .modal .modal-body p {
+    padding-top: 25px;
+}
+
+/*  ============================
+          core team part end
+  ============================ */
