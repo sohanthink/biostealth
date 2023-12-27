@@ -139,7 +139,7 @@ ol {
     padding: 70px 0px;
 }
 
-.live .main span {
+.live .main h4 span {
     color: rgb(217, 142, 4);
     font-size: 40px;
     font-weight: 500;
@@ -396,22 +396,89 @@ ol {
 ------------------------------------------------------ */
 
 .footer {
-    padding: 50px 0;
-    background-color: #5a67b2;
+    padding: 70px 0px 300px 0;
+    background-color: #5E6AA7;
 }
 
 .footer h6 {
-    position: relative;
     color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
-.footer h6::after {
+.footer .mark2 {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.footer .links {
+    padding-top: 100px;
+}
+
+.footer .links ul li {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.footer .links ul li a {
+    color: white;
+}
+
+/* ------------------------------------------------------
+--------- avout page Css Starts from here- --------------
+------------------------------------------------------ */
+
+
+/* ------------------------------------------------------
+--------- avout banner section Css Starts from here- ----
+------------------------------------------------------ */
+
+
+
+
+.about_banner {
+    background: linear-gradient(90deg, #646FAA 0%, #BCC1DB 100%);
+    width: 100%;
+    height: 650px;
+}
+
+.about_banner .banner_mark h2 {
+    color: white;
+    font-size: 65px;
+    position: relative;
+}
+
+.about_banner .banner_mark h2::before {
     content: '';
     position: absolute;
-    left: 0px;
-    bottom: 10px;
-    width: 80px;
-    height: 2px;
-    color: #ffffff;
-    top: 10px;
+    width: 147px;
+    transform: translateX(40%);
+    border: 3px solid orange;
+    top: 95px;
+}
+
+
+
+/* ------------------------------------------------------
+--------- about_founder section Css Starts from here- ----
+------------------------------------------------------ */
+
+.about_founder {
+    width: 100%;
+}
+
+.about_founder .content {
+    background-image: url(./images/Team\ pic.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 300px 50px;
+}
+
+.about_founder .container p {
+    font-size: 45px;
+    padding: 0 50px;
+    line-height: 60px;
 }
