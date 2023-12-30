@@ -617,15 +617,15 @@ pre code {
     }
 }
 
-@media (min-width:1800px) {
+@media (min-width:2000px) {
     .container {
-        max-width: 1340px
+        max-width: 1600px
     }
 }
 
-@media (min-width:2200px) {
+@media (min-width:2500px) {
     .container {
-        max-width: 1600px
+        max-width: 1900px
     }
 }
 

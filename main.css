@@ -702,3 +702,270 @@ ol {
 /*  ============================
           core team part end
   ============================ */
+
+
+
+
+
+
+
+/*  ============================
+          responsive part end
+  ============================ */
+
+
+
+
+
+@media only screen and (min-width: 1960px) {
+    .container {
+        max-width: 1450px
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+
+    .banner .content h2 {
+        padding: 400px 0;
+        font-size: 65px;
+    }
+
+    .live .main span {
+        font-size: 35px;
+        color: orange;
+    }
+
+    .live .main h2 {
+        font-size: 180px;
+    }
+
+    .live .main h5 {
+        font-size: 42px;
+    }
+
+    .live .main h4 {
+        font-size: 55px;
+    }
+
+    .live .main p {
+        font-size: 44px;
+    }
+
+    .touchable .touchable_content h2 {
+        font-size: 65px;
+    }
+
+    .touchable .touchable_content p {
+        font-size: 38px;
+        padding: 40px 0;
+    }
+
+    .touchable .touchable_content .touchable_image img {
+        width: 100%;
+    }
+
+    .touchable .touchable_content .touchable_image::after {
+        width: 930px;
+    }
+
+    .touchable .touchable_content .touchable_description {
+        font-size: 40px;
+    }
+
+    .usability .usability_content h2 {
+        font-size: 180px;
+    }
+
+    .usability .usability_content p {
+        font-size: 48px;
+    }
+
+    .usability .usability_bottom h3 {
+        font-size: 79px;
+    }
+
+    .usability2 .usability_content h2 {
+        font-size: 165px;
+    }
+
+    .usability2 .usability_content p {
+        font-size: 56px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 75px;
+    }
+
+    .commited .one h3 {
+        font-size: 56px;
+        padding: 10px 10px 50px 10px;
+    }
+
+    .commited .two h4 {
+        font-size: 50px;
+    }
+
+    .commited .two h4::after {
+        width: 400px;
+    }
+
+    .commited {
+        padding: 90px 0;
+    }
+
+    .partners h2 {
+        font-size: 90px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 2560px) {
+    .container {
+        max-width: 1800px
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+
+    .menu nav ul li .contact_btn {
+        font-size: 24px;
+    }
+
+    .banner .content h2 {
+        font-size: 85px;
+    }
+
+    .live .main h2 {
+        font-size: 257px;
+    }
+
+    .live .main h5 {
+        font-size: 61px;
+    }
+
+    .live .main span {
+        font-size: 70px;
+    }
+
+    .live .main h4 {
+        font-size: 77px;
+    }
+
+    .live .main p {
+        font-size: 57px;
+    }
+
+    .live .main p {
+        font-size: 60px;
+        padding: 110px 0 70px 0px;
+    }
+
+    .touchable .touchable_content h2 {
+        font-size: 80px;
+    }
+
+    .touchable .touchable_content p {
+        font-size: 49px;
+        padding: 50px 0;
+    }
+
+    .touchable .touchable_content .touchable_image img {
+        width: 105%;
+    }
+
+    .touchable .touchable_content .touchable_description {
+        font-size: 56px;
+    }
+
+    .touchable .touchable_content .touchable_bottom span {
+        font-size: 31px;
+    }
+
+    .touchable {
+        padding: 70px 0;
+    }
+
+    .usability .main .left {
+        width: 70%;
+    }
+
+    .usability2 .main .left {
+        width: 70%;
+    }
+
+    .usability .usability_content h2 {
+        font-size: 225px;
+    }
+
+    .usability .usability_content p {
+        font-size: 67px;
+    }
+
+    .usability {
+        padding: 250px 0 110px 0;
+    }
+
+    .usability .usability_bottom h3 {
+        padding-left: 242px;
+        font-size: 105px;
+    }
+
+    .usability2 .usability_content h2 {
+        font-size: 204px;
+    }
+
+    .usability2 .usability_content p {
+        font-size: 68px;
+    }
+
+    .usability2 .usability_content p span {
+        font-size: 80px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 106px;
+    }
+
+    .usability2 {
+        padding: 80px 0 230px 0;
+    }
+
+    .commited .one h3 {
+        font-size: 78px;
+        padding: 80px 10px 90px 10px;
+    }
+
+    .commited .two h4 {
+        font-size: 70px;
+    }
+
+    .commited .two h4::after {
+        width: 551px;
+        bottom: -30px;
+        border: 4px solid #5a67b2;
+    }
+
+    .commited .two p {
+        font-size: 48px;
+        font-weight: 300;
+        padding: 58px 195px 0 195px;
+    }
+
+    .commited {
+        padding: 112px 0;
+    }
+
+    .partners h2 {
+        font-size: 100px;
+    }
+
+
+
+
+
+
+}
