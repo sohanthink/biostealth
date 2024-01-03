@@ -181,6 +181,10 @@ ol {
         max-width: 1450px
     }
 
+    .banner .content {
+        height: 95vh;
+    }
+
     .banner .content h2 {
         font-size: 66px;
     }
@@ -217,6 +221,10 @@ ol {
 @media only screen and (min-width: 2560px) {
     .container {
         max-width: 1800px
+    }
+
+    .banner .content {
+        height: 90vh;
     }
 
     .banner .content h2 {
