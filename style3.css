@@ -7,6 +7,7 @@ body {
     /* font-family: 'Nunito Sans', sans-serif; */
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background-color: #f6f4fe;
 }
 
 ul,
@@ -85,12 +86,25 @@ ol {
 ------------------------------------------------------ */
 
 .banner .content {
-    background-image: url(./images/banner/biostealth_12.gif);
+    background-image: url(./images/biostealth.gif);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
+
+/* .banner .content::after {
+    content: "";
+    display: block;
+    background-image: url(./images/banner-shape.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    margin-top: -50px;
+    rotate: -3deg;
+} */
 
 .banner {
     width: 100%;
@@ -101,7 +115,19 @@ ol {
     color: aliceblue;
     font-size: 50px;
     font-weight: 700;
+    line-height: 75px;
 }
+
+.banner .content h2 span {
+    background-color: rgb(246 244 254);
+    color: #6270a7;
+    padding: 5px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+
 
 /* ------------------------------------------------------
 --------- live data sectiojn Css Starts from here- ------
@@ -110,10 +136,29 @@ ol {
 .live {
     width: 100%;
     background-size: cover;
+    position: relative;
+}
+
+.live .shape {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #7079b3;
+    bottom: -65px;
+    right: 9%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.live .shape img {
+    width: 100%
 }
 
 .live .main {
-    padding: 120px 0;
+    background: #ffffff;
+    padding: 50px;
+    margin: 100px 0;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .live .main .one span {
@@ -155,11 +200,17 @@ ol {
 
 
 
+
+
+
+
+
 .touchable {
-    background-image: url(./images/touchable/touchable.webp);
+    /* background-image: url(./images/touchable/touchable.webp);
     background-repeat: no-repeat;
     width: 100%;
-    background-size: cover;
+    background-size: cover; */
+    background-color: rgb(255, 255, 255);
 }
 
 .touchable .content {
@@ -174,103 +225,4 @@ ol {
 .touchable .content p {
     font-size: 22px;
     padding: 15px 0;
-}
-
-
-
-
-
-@media only screen and (min-width: 1960px) {
-    .container {
-        max-width: 1450px
-    }
-
-    .banner .content {
-        height: 95vh;
-    }
-
-    .banner .content h2 {
-        font-size: 66px;
-    }
-
-    .live .main h2 {
-        font-size: 199px;
-    }
-
-    .live .main h5 {
-        font-size: 38px;
-    }
-
-    .live .main h4 {
-        font-size: 49px;
-        line-height: 71px;
-    }
-
-    .live .main p {
-        font-size: 40px;
-    }
-
-    .touchable .touchable_image img {
-        height: 127%;
-    }
-
-    .touchable .content p {
-        font-size: 24px;
-    }
-
-
-
-}
-
-@media only screen and (min-width: 2560px) {
-    .container {
-        max-width: 1800px
-    }
-
-    .banner .content {
-        height: 90vh;
-    }
-
-    .banner .content h2 {
-        font-size: 79px;
-    }
-
-    .live .main h2 {
-        font-size: 250px;
-    }
-
-    .live .main h5 {
-        font-size: 48px;
-    }
-
-    .live .main h4 {
-        font-size: 61px;
-        line-height: 81px;
-    }
-
-    .live .main p {
-        font-size: 50px;
-    }
-
-    .touchable .content h2 {
-        font-size: 45px;
-    }
-
-    .touchable .content p {
-        font-size: 30px;
-    }
-
-    .touchable .content h6 {
-        font-size: 20px;
-    }
-
-
-
-
-
-
-
-
-
-
 }
