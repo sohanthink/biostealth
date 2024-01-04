@@ -183,7 +183,7 @@ ol {
 }
 
 .live .main p {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 400;
     font-style: italic;
     padding: 70px 0px;
@@ -225,4 +225,110 @@ ol {
 .touchable .content p {
     font-size: 22px;
     padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1960px) {
+    .container {
+        max-width: 1450px
+    }
+
+    .banner .content {
+        height: 95vh;
+    }
+
+    .banner .content h2 {
+        font-size: 66px;
+        line-height: 86px;
+    }
+
+    .live .main h2 {
+        font-size: 199px;
+    }
+
+    .live .main h5 {
+        font-size: 38px;
+    }
+
+    .live .main h4 {
+        font-size: 49px;
+        line-height: 71px;
+    }
+
+    .live .main p {
+        font-size: 36px;
+    }
+
+    .touchable .touchable_image img {
+        height: 127%;
+    }
+
+    .touchable .content p {
+        font-size: 24px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 2560px) {
+    .container {
+        max-width: 1800px
+    }
+
+    .banner .content {
+        height: 90vh;
+    }
+
+    .banner .content h2 {
+        font-size: 79px;
+        line-height: 96px;
+    }
+
+    .live .main h2 {
+        font-size: 250px;
+    }
+
+    .live .main h5 {
+        font-size: 48px;
+    }
+
+    .live .main h4 {
+        font-size: 61px;
+        line-height: 81px;
+    }
+
+    .live .main p {
+        font-size: 45px;
+    }
+
+    .touchable .content h2 {
+        font-size: 45px;
+    }
+
+    .touchable .content p {
+        font-size: 30px;
+    }
+
+    .touchable .content h6 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
