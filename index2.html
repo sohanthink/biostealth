@@ -23,7 +23,7 @@
      <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body  onload="callREST()">
 
 
     <!-----------------------------------------------------------------------------------------------------------------------
@@ -95,8 +95,8 @@
             <div class="main">
                 <div class="row">
                     <div class="one col-lg-6 text-right pr-5">
-                        <span>+200</span><br>today
-                        <h2>41,233</h2>
+                        <span id="displayTodayCount">+</span><br>today
+                        <h2 id="displayTotalCount"></h2>
                         <h5>Health checks From Touchables.</h3>
                     </div>
                     <div class="col-lg-6 pl-5 align-self-end">
@@ -181,7 +181,7 @@
                     <div class="right">
                         <div class="usability_content">
                             <div class="parent">
-                                <h2>687</h2>
+                                <h2 id="displayTotalHours">687</h2>
                                 <div class="ext">
                                     <span>+1</span><br>today
                                 </div>
@@ -331,6 +331,24 @@
     <script src="https://biostealth.ai/frontend_asset/js/video.js"></script>
     <script src="https://biostealth.ai/frontend_asset/js/script.js"></script>      
     <script src="https://biostealth.ai/frontend_asset/js/Navbar.js"></script>
-    
+   
 </body>
+
+<script>
+    function callREST() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                
+                const objCount = JSON.parse(this.responseText);
+                document.getElementById("displayTodayCount").innerHTML = objCount.todayCount;
+                document.getElementById("displayTotalCount").innerHTML = objCount.totalCount;
+                document.getElementById("displayTotalHours").innerHTML = Math.round(objCount.totalCount/60);
+            }
+        };
+        xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
+        xhttp.send();
+    }
+</script>
+</script>
 </html>
