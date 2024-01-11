@@ -336,6 +336,10 @@
 
 
 <script>
+
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
     function callREST() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
@@ -351,6 +355,11 @@
         xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
         xhttp.send();
     }
+};
+xhttp.open("POST", "/api/AdminProfile/getFrameCount", true);
+xhttp.send();
+
+   
 </script>
 </script>
 </html>
