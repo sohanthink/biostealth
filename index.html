@@ -352,10 +352,10 @@
             }
         };
         xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
+        xhttp.setRequestHeader("Origin", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount"); // Replace with your client domain
         xhttp.send();
     }
 
-    xhttp.setRequestHeader("Origin", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount"); // Replace with your client domain
 
 
 
