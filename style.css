@@ -719,13 +719,465 @@ ol {
 
 
 
+/*  ============================
+          responsiveness part end
+  ============================ */
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+    .banner .content {
+        background-image: url(./images/biostealth.gif);
+    }
+
+    .banner .content h2 {
+        padding: 325px 30px;
+        font-size: 45px;
+    }
+
+    .live .main p {
+        font-size: 23px;
+        padding: 30px 30px;
+    }
+
+    .touchable .content {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .touchable .content p {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .touchable .touchable_image {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .touchable .touchable_image img {
+        width: 65%;
+        height: 137%;
+        padding-top: 90px;
+    }
+
+    .usability {
+        padding: 50px 0;
+    }
+
+    .usability .main {
+        display: block;
+    }
+
+    .usability .usability_content h2 {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .usability .usability_bottom {
+        margin-top: 25px;
+    }
+
+    .usability2 .usability_bottom {
+        margin-top: 25px;
+    }
+
+    .usability .usability_content p {
+        padding: 20px 30px;
+        font-size: 23px;
+        margin: 0 30px;
+    }
+
+    .usability2 .usability_content p {
+        padding: 20px 30px;
+        font-size: 23px;
+        margin: 0 30px;
+    }
+
+    .usability2 {
+        padding: 80px 0 80px 0;
+    }
+
+    .usability2 .usability_content .ext {
+        left: 74%;
+        top: -98px;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .usability2 .usability_content span {
+        color: rgb(89 103 178);
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .usability2 .usability_content .parent {
+        text-align: center;
+    }
+
+    .usability2 .main {
+        display: block;
+    }
+
+    .usability .usability_bottom h3 {
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 24px;
+    }
+
+    .usability .main .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .usability2 .main .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .commited .one h3 {
+        font-size: 23px;
+        padding: 0 20px 40px 20px;
+    }
+
+    .commited .main .two {
+        font-size: 17px;
+        margin: 20px;
+    }
+
+    .commited .contents {
+        margin: 0;
+    }
+
+    .partners {
+        padding: 60px 30px;
+    }
+
+    .live .main h4 {
+        margin-top: 30px;
+    }
+
+    .live .main {
+        padding: 80px 0;
+    }
+
+
+    .footer h6 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .footer .mark2 {
+        width: 94%;
+    }
+
+    .footer .links ul li {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding: 70px 30px 70px 30px;
+        background-color: #5E6AA7;
+    }
 
 
 
 
 
 
+}
 
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .live .main {
+        padding: 80px 0;
+    }
+
+    .live .main h4 {
+        font-size: 30px;
+        line-height: 49px;
+        padding: 15px;
+        margin: 38px 0;
+    }
+
+    .live .main p {
+        font-size: 25px;
+        padding: 0px;
+    }
+
+    .touchable .content {
+        padding: 100px 0 200px 0;
+        text-align: center;
+    }
+
+    .touchable .content p {
+        font-size: 19px;
+        padding: 15px 0;
+    }
+
+    .touchable .touchable_image img {
+        width: 100%;
+        height: 134%;
+        margin-top: 35px;
+    }
+
+    .usability {
+        padding: 50px 0;
+    }
+
+    .usability .main {
+        display: block;
+    }
+
+    .usability .usability_content h2 {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .usability .usability_bottom {
+        margin-top: 25px;
+    }
+
+    .usability2 .usability_bottom {
+        margin-top: 25px;
+    }
+
+    .usability .usability_content p {
+        padding: 20px 30px;
+        font-size: 23px;
+    }
+
+    .usability2 .usability_content p {
+        padding: 20px 30px;
+        font-size: 23px;
+        margin: 0 30px;
+    }
+
+    .usability2 {
+        padding: 80px 0 80px 0;
+    }
+
+    .usability2 .usability_content .ext {
+        left: 74%;
+        top: -98px;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .usability2 .usability_content span {
+        color: rgb(89 103 178);
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .usability2 .usability_content .parent {
+        text-align: center;
+    }
+
+    .usability2 .main {
+        display: block;
+    }
+
+    .usability .usability_bottom h3 {
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 24px;
+    }
+
+    .usability .main .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .usability2 .main .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .commited .one h3 {
+        font-size: 29px;
+        padding-bottom: 0;
+    }
+
+    .commited .main .two {
+        padding: 25px 10px;
+        margin: 30px 0;
+    }
+
+    .commited {
+        padding: 60px 0 30px 0;
+    }
+
+    .partners {
+        padding: 90px 0;
+    }
+
+    .footer .links ul li {
+        font-size: 19px;
+    }
+
+    .footer {
+        padding: 70px 0px 85px 0;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .live .main h2 {
+        font-size: 85px;
+    }
+
+    .live .main h5 {
+        font-size: 15px;
+    }
+
+    .live .main h4 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .live .main p {
+        font-size: 20px;
+    }
+
+    .live .main {
+        padding: 100px 0;
+    }
+
+    .touchable .content {
+        padding: 100px 0;
+    }
+
+    .touchable .content p {
+        font-size: 20px;
+    }
+
+    .touchable .touchable_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .touchable .touchable_image img {
+        height: 130%;
+        width: 70%;
+        padding-top: 110px;
+        padding-bottom: 45px;
+    }
+
+    .usability .usability_content p {
+        font-size: 20px;
+    }
+
+    .usability .main {
+        gap: 30px;
+    }
+
+    .usability2 .main {
+        gap: 30px;
+    }
+
+    .usability2 .usability_content p {
+        font-size: 20px;
+    }
+
+    .usability .main .right {
+        width: 50%;
+    }
+
+    .usability .main .left {
+        width: 50%;
+    }
+
+    .usability2 .main .right {
+        width: 50%;
+    }
+
+    .usability2 .main .left {
+        width: 50%;
+    }
+
+    .usability .usability_content h2 {
+        font-size: 80px;
+    }
+
+    .usability2 .usability_content h2 {
+        font-size: 80px;
+    }
+
+    .usability .usability_bottom h3 {
+        padding-left: 75px;
+        font-size: 33px;
+    }
+
+    .usability2 .usability_content span {
+        color: rgb(89 103 178);
+        font-size: 52px;
+    }
+
+    .usability2 .usability_content .ext {
+        left: 53%;
+        top: -49px;
+        font-size: 30px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 33px;
+    }
+
+    .commited .one h3 {
+        font-size: 30px;
+    }
+
+    .commited .main .two {
+        font-size: 16px;
+    }
+
+    .commited .main .two h4 {
+        font-size: 20px;
+    }
+
+    .commited .main .two i {
+        margin-top: 15px;
+    }
+
+    .commited .main .two p {
+        padding-top: 15px;
+    }
+
+    .footer {
+        padding: 70px 0px 80px 0;
+    }
+
+    .footer .links ul li {
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
 
 
 
@@ -906,11 +1358,5 @@ ol {
     .commited .main .two h4 {
         font-size: 45px;
     }
-
-
-
-
-
-
 
 }
