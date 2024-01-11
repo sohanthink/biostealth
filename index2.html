@@ -181,9 +181,9 @@
                     <div class="right">
                         <div class="usability_content">
                             <div class="parent">
-                                <h2 id="displayTotalHours">687</h2>
+                                <h2 id="displayTotalHours"></h2>
                                 <div class="ext">
-                                    <span>+1</span><br>today
+                                    <span id="displayTodayHours"></span><br>today
                                 </div>
                             </div>
                             <p><span>Hours</span> saved collectively using Touchables, compared to traditional methods for equivalent data collection.</p>
@@ -345,6 +345,7 @@
                 document.getElementById("displayTodayCount").innerHTML = objCount.todayCount;
                 document.getElementById("displayTotalCount").innerHTML = objCount.totalCount;
                 document.getElementById("displayTotalHours").innerHTML = Math.round(objCount.totalCount/60);
+                document.getElementById("displayTodayHours").innerHTML = Math.round(objCount.todayCount/60);
             }
         };
         xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
