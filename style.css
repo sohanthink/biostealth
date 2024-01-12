@@ -894,7 +894,7 @@ ol {
 
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/* // small tablet devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .live .main {
         padding: 80px 0;
@@ -1032,7 +1032,7 @@ ol {
 
 }
 
-/* // Large devices (desktops, 992px and up) */
+/* // medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .container {
         max-width: 750px;
@@ -1173,11 +1173,119 @@ ol {
 
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner .content {
+        background-position: center;
+    }
+
+    .live .main h5 {
+        font-size: 23px;
+    }
+
+    .live .main h4 {
+        font-size: 28px;
+        line-height: 47px;
+    }
+
+    .live .main {
+        padding: 90px 0;
+    }
+
+    .touchable .content p {
+        font-size: 18px;
+    }
+
+    .touchable .touchable_image img {
+        height: 98%;
+    }
+
+    .touchable .content {
+        padding: 100px 0;
+    }
+
+    .usability .main .right {
+        width: 50%;
+    }
+
+    .usability .main .left {
+        width: 50%;
+    }
+
+    .usability .usability_content p {
+        font-size: 26px;
+    }
+
+    .usability2 .usability_content p {
+        font-size: 26px;
+    }
+
+    .usability .usability_content h2 {
+        font-size: 92px;
+    }
+
+    .usability2 .usability_content h2 {
+        font-size: 92px;
+    }
+
+    .usability .usability_bottom h3 {
+        font-size: 36px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 36px;
+    }
+
+    .usability2 .usability_content .ext {
+        left: 75%;
+        top: -66px;
+        font-size: 30px;
+    }
+
+    .usability2 .usability_content span {
+        font-size: 59px;
+    }
+
+    .usability {
+        padding: 90px 0 80px 0;
+    }
+
+    .usability2 {
+        padding: 35px 0 80px 0;
+    }
+
+    .usability .usability_bottom {
+        margin-top: 100px;
+    }
+
+    .usability2 .usability_bottom {
+        margin-top: 100px;
+    }
+
+    .commited .one h3 {
+        font-size: 31px;
+    }
+
+    .commited .main .two {
+        font-size: 17px;
+    }
+
+    .footer .links ul li {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 70px 0px 120px 0;
+    }
+
+}
 
 /*  XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1959.98) {
+    .banner .content {
+        background-position: right;
+    }
+}
 
 
 
