@@ -1281,13 +1281,48 @@ ol {
 }
 
 /*  XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1200px) and (max-width: 1959.98) {
+@media (min-width: 1200px) and (max-width: 1499.98px) {
     .banner .content {
         background-position: right;
     }
+
+    .usability .usability_bottom h3 {
+        font-size: 45px;
+    }
+
+    .usability2 .usability_bottom h3 {
+        font-size: 45px;
+    }
+
+    .footer {
+        padding: 70px 0px 70px 0;
+    }
+
+    .footer .links {
+        padding-top: 100px;
+        padding: 100px 20px 0 20px;
+    }
+
 }
 
+@media (min-width: 1500px) and (max-width: 1959.98px) {
+    .container {
+        max-width: 1230px;
+    }
 
+    .banner .content {
+        background-position: right;
+    }
+
+    .commited .main .two h4 {
+        font-size: 33px;
+    }
+
+    .commited .main .two {
+        font-size: 22px;
+    }
+
+}
 
 
 
@@ -1364,7 +1399,7 @@ ol {
     }
 
     .usability2 .usability_content .ext {
-        left: 61%;
+        left: 81%;
     }
 
 
@@ -1452,7 +1487,7 @@ ol {
     }
 
     .usability2 .usability_content .ext {
-        left: 58%;
+        right: 0;
     }
 
     .commited .main .two p {
