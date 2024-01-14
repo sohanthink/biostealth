@@ -1043,6 +1043,14 @@ ol {
         padding: 70px 0px 85px 0;
     }
 
+    .about_founder .container p {
+        font-size: 26px;
+    }
+
+    .about_founder .content {
+        padding: 90px 50px;
+    }
+
 }
 
 /* // medium devices (desktops, 992px and up) */
@@ -1327,6 +1335,14 @@ ol {
     .footer .links {
         padding-top: 100px;
         padding: 100px 20px 0 20px;
+    }
+
+    .about_founder .container p {
+        font-size: 32px;
+    }
+
+    .about_founder .content {
+        padding: 110px 50px;
     }
 
 }
