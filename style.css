@@ -887,7 +887,20 @@ ol {
         background-color: #5E6AA7;
     }
 
+    /* about page css starts from here */
 
+
+    #index-team .modal-dialog {
+        max-width: 100%;
+    }
+
+    .about_founder .container p {
+        font-size: 21px;
+    }
+
+    .about_founder .content {
+        padding: 85px 50px;
+    }
 
 
 
@@ -1168,6 +1181,9 @@ ol {
         font-size: 20px;
     }
 
+    .about_founder .container p {
+        font-size: 29px;
+    }
 
 
 
@@ -1276,6 +1292,16 @@ ol {
 
     .footer {
         padding: 70px 0px 120px 0;
+    }
+
+    .about_founder .container p {
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .about_founder .content {
+        padding: 110px 50px;
     }
 
 }
