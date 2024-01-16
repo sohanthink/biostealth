@@ -338,21 +338,21 @@
 
 
 
-    function callREST() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
+    // function callREST() {
+    //     var xhttp = new XMLHttpRequest();
+    //     xhttp.onreadystatechange = function() {
+    //         if (this.readyState == 4 && this.status == 200) {
                 
-                const objCount = JSON.parse(this.responseText);
-                document.getElementById("displayTodayCount").innerHTML = objCount.todayCount;
-                document.getElementById("displayTotalCount").innerHTML = objCount.totalCount;
-                document.getElementById("displayTotalHours").innerHTML = Math.round(objCount.totalCount/60);
-                document.getElementById("displayTodayHours").innerHTML = Math.round(objCount.todayCount/60);
-            }
-        };
-        xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
-        xhttp.send();
-    }
+    //             const objCount = JSON.parse(this.responseText);
+    //             document.getElementById("displayTodayCount").innerHTML = objCount.todayCount;
+    //             document.getElementById("displayTotalCount").innerHTML = objCount.totalCount;
+    //             document.getElementById("displayTotalHours").innerHTML = Math.round(objCount.totalCount/60);
+    //             document.getElementById("displayTodayHours").innerHTML = Math.round(objCount.todayCount/60);
+    //         }
+    //     };
+    //     xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
+    //     xhttp.send();
+    // }
     
 
 
