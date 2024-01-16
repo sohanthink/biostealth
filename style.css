@@ -115,11 +115,15 @@ ol {
 
 .live {
     width: 100%;
+    background-image: url(./images/live/live\ bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
     background-size: cover;
 }
 
 .live .main {
     padding: 120px 0;
+
 }
 
 .live .main .one span {
@@ -349,7 +353,7 @@ ol {
 
 .commited .main .two {
     padding: 25px 10px;
-    background: #5967b291;
+    background: #5967b2c4;
     font-size: 20px;
     border-radius: 10px;
     color: white;
@@ -396,6 +400,84 @@ ol {
 /* ------------------------------------------------------
 --------- updates section Css Starts from here- ------
 ------------------------------------------------------ */
+
+
+#recent_update {
+    background: #e9fae5;
+    padding: 130px 0;
+    position: relative;
+}
+
+#recent_update h2 {
+    color: #3d3d3d;
+    padding-bottom: 35px;
+    font-size: 59px;
+}
+
+#recent_update .recent_slider {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#recent_update .slick-slide {
+    margin: 0px 15px;
+}
+
+#recent_update .recent_slide_item {
+    background: #5463b7;
+    padding: 45px;
+    border-radius: 12px;
+}
+
+#recent_update .recent_slide_item p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#recent_update .recent_slide_item p.date {
+    color: white;
+    font-size: 25px;
+}
+
+#recent_update .recent_slide_item hr {
+    height: 1px;
+    background: yellow;
+    margin: 5px 0px;
+}
+
+#recent_update .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    bottom: -40px;
+}
+
+#recent_update .slick-dots li {
+    padding: 0px 15px;
+}
+
+#recent_update .slick-dots li button {
+    font-size: 0px;
+    height: 10px;
+    width: 10px;
+    background: #5463b7;
+    border-radius: 50%;
+    border: 1px solid #5463b7;
+}
+
+#recent_update .slick-dots li.slick-active button {
+    font-size: 0px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #5463b7;
+}
+
+/* ------------------------------------------------------
+--------- updates section Css Starts from here- ------
+------------------------------------------------------ */
+
 
 .footer {
     padding: 70px 0px 300px 0;
