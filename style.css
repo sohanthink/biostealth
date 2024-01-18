@@ -508,6 +508,12 @@ ol {
 
 .footer .links ul li a {
     color: white;
+    transition: all linear 0.4s;
+    font-size: 22px;
+}
+
+.footer .links ul li a:hover {
+    color: rgb(217, 142, 4);
 }
 
 /* ------------------------------------------------------
@@ -847,6 +853,11 @@ ol {
         padding-top: 90px;
     }
 
+    .touchable {
+        background-image: none;
+        background: #e9fae7;
+    }
+
     .usability {
         padding: 50px 0;
     }
@@ -924,6 +935,14 @@ ol {
         padding: 20px;
     }
 
+    .usability .main .left {
+        padding: 40px;
+    }
+
+    .usability2 .main .left {
+        padding: 40px;
+    }
+
     .commited .one h3 {
         font-size: 23px;
         padding: 0 20px 40px 20px;
@@ -944,10 +963,16 @@ ol {
 
     .live .main h4 {
         margin-top: 30px;
+        padding: 30px 20px;
+        font-size: 30px;
     }
 
     .live .main {
         padding: 80px 0;
+    }
+
+    .live {
+        background-image: none;
     }
 
 
@@ -967,6 +992,12 @@ ol {
     .footer {
         padding: 70px 30px 70px 30px;
         background-color: #5E6AA7;
+    }
+
+    .footer .links ul li a {
+        color: white;
+        transition: all linear 0.4s;
+        font-size: 14px;
     }
 
     /* about page css starts from here */
