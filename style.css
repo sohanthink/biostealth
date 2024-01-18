@@ -957,6 +957,12 @@ ol {
         margin: 0;
     }
 
+    .commited .main .two i {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+    }
+
     .partners {
         padding: 60px 30px;
     }
@@ -1005,6 +1011,10 @@ ol {
 
     #index-team .modal-dialog {
         max-width: 100%;
+    }
+
+    .about_banner {
+        height: 308px;
     }
 
     .about_founder .container p {
