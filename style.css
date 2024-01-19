@@ -75,8 +75,8 @@ ol {
 .menu nav ul li .contact_btn {
     background-color: #6270a7;
     color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 10px 22px;
+    border-radius: 25px;
     white-space: nowrap;
 }
 
@@ -503,6 +503,17 @@ ol {
     font-size: 24px;
     color: white;
     padding-bottom: 12px;
+}
+
+.footer .links ul li .icon {
+    height: 50px;
+    width: 50px;
+    background: white;
+    color: #5e6aa7;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 80px;
 }
 
 .footer .links ul li a {
@@ -1010,7 +1021,7 @@ ol {
     .footer .links ul li a {
         color: white;
         transition: all linear 0.4s;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     /* about page css starts from here */
@@ -1219,7 +1230,12 @@ ol {
     }
 
     .live .main {
-        padding: 100px 0;
+        padding: 60px 0;
+    }
+
+    .touchable {
+        background-image: none;
+        background-color: #e9fae7;
     }
 
     .touchable .content {
@@ -1244,6 +1260,14 @@ ol {
 
     .usability .usability_content p {
         font-size: 20px;
+    }
+
+    .usability {
+        padding: 100px 0 80px 0;
+    }
+
+    .usability2 {
+        padding: 50px 0 80px 0;
     }
 
     .usability .main {
@@ -1284,7 +1308,7 @@ ol {
 
     .usability .usability_bottom h3 {
         padding-left: 75px;
-        font-size: 33px;
+        font-size: 29px;
     }
 
     .usability2 .usability_content span {
@@ -1299,7 +1323,7 @@ ol {
     }
 
     .usability2 .usability_bottom h3 {
-        font-size: 33px;
+        font-size: 29px;
     }
 
     .commited .one h3 {
