@@ -737,6 +737,13 @@ ol {
     -moz-transition: all linear 0.3s 0s;
     -o-transition: all linear 0.3s 0s;
     transition: all linear 0.3s 0s;
+    background-color: #5a67b2;
+    padding: 10px 15px;
+}
+
+#index-team .m-btn span {
+    padding-left: 35px;
+    color: white;
 }
 
 #index-team .m-btn i {
@@ -755,8 +762,8 @@ ol {
     transition: all linear 0.3s 0s;
 }
 
-#index-team .m-btn:hover i {
-    color: #5a67b2;
+#index-team .m-btn:hover {
+    border-radius: 10px;
 }
 
 #index-team .modal-dialog {
