@@ -184,7 +184,6 @@ ol {
 
 .touchable .touchable_image img {
     width: 100%;
-    height: 110%
 }
 
 .touchable .content p {
@@ -831,6 +830,14 @@ ol {
         padding: 30px 30px;
     }
 
+    .live .main h2 {
+        font-size: 104px;
+    }
+
+    .live .main h5 {
+        font-size: 19px;
+    }
+
     .touchable .content {
         padding: 100px 0;
         text-align: center;
@@ -848,9 +855,8 @@ ol {
     }
 
     .touchable .touchable_image img {
-        width: 65%;
-        height: 137%;
-        padding-top: 90px;
+        width: 80%;
+        padding-top: 70px;
     }
 
     .touchable {
@@ -918,11 +924,11 @@ ol {
 
     .usability .usability_bottom h3 {
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 15px;
     }
 
     .usability2 .usability_bottom h3 {
-        font-size: 24px;
+        font-size: 15px;
     }
 
     .usability .main .right {
@@ -970,7 +976,8 @@ ol {
     .live .main h4 {
         margin-top: 30px;
         padding: 30px 20px;
-        font-size: 30px;
+        font-size: 23px;
+        line-height: 40px;
     }
 
     .live .main {
@@ -1032,6 +1039,10 @@ ol {
 
 /* // small tablet devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .live {
+        background: none;
+    }
+
     .live .main {
         padding: 80px 0;
     }
@@ -1048,6 +1059,10 @@ ol {
         padding: 0px;
     }
 
+    .touchable {
+        background-color: #e9fae7;
+    }
+
     .touchable .content {
         padding: 100px 0 200px 0;
         text-align: center;
@@ -1060,7 +1075,6 @@ ol {
 
     .touchable .touchable_image img {
         width: 100%;
-        height: 134%;
         margin-top: 35px;
     }
 
@@ -1174,6 +1188,11 @@ ol {
         padding: 90px 50px;
     }
 
+    .footer .links ul li a {
+        color: white;
+        transition: all linear 0.4s;
+        font-size: 16px;
+    }
 }
 
 /* // medium devices (desktops, 992px and up) */
@@ -1218,7 +1237,6 @@ ol {
     }
 
     .touchable .touchable_image img {
-        height: 130%;
         width: 70%;
         padding-top: 110px;
         padding-bottom: 45px;
@@ -1527,9 +1545,6 @@ ol {
         font-size: 40px;
     }
 
-    .touchable .touchable_image img {
-        height: 127%;
-    }
 
     .touchable .content p {
         font-size: 26px;
