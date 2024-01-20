@@ -119,6 +119,31 @@ ol {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    position: relative;
+}
+
+.live .rotating-shape {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+}
+
+.live .rotating-shape img {
+    /* Apply animation */
+    animation: rotateAnimation 5s linear infinite;
+    width: 100%;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+        /* Start position */
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /* End position */
+    }
 }
 
 .live .main {
