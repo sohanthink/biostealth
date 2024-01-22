@@ -119,10 +119,9 @@ ol {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    position: relative;
 }
 
-.live .rotating-shape {
+/* .live .rotating-shape {
     position: absolute;
     top: -100px;
     left: 100px;
@@ -130,8 +129,8 @@ ol {
 
 .live .rotating-shape img {
     /* Apply animation */
-    animation: rotateAnimation 5s linear infinite;
-    width: 100%;
+animation: rotateAnimation 5s linear infinite;
+width: 100%;
 }
 
 @keyframes rotateAnimation {
@@ -146,7 +145,7 @@ ol {
     }
 }
 
-.live .main {
+*/ .live .main {
     padding: 120px 0;
 
 }
