@@ -100,6 +100,7 @@ ol {
     width: 100%;
     background-size: cover;
     height: 100vh;
+    background-position: right;
 }
 
 .banner {
@@ -265,7 +266,11 @@ width: 100%;
 
 .usability {
     background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
-    padding: 80px 0;
+    padding: 100px 0;
+}
+
+.usability img {
+    border-radius: 15%;
 }
 
 .usability .content p {
@@ -291,7 +296,7 @@ width: 100%;
 }
 
 .usability_bottom {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .usability_bottom .content .data {
@@ -301,11 +306,265 @@ width: 100%;
 }
 
 .usability_bottom .content span {
-    color: rgb(217, 142, 4);
+    color: rgb(232, 156, 14);
     font-size: 22px;
 }
 
 .usability_bottom .content span h4 {
     color: #5a67b2;
     font-size: 33px;
+}
+
+
+/* ------------------------------------------------------
+--------- comited sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+.commited {
+    background-image: url(../images/Competitive\ proposition.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.commited .one h3 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0 10px 40px 10px;
+}
+
+.commited .two p {
+    font-size: 33px;
+}
+
+.commited .two {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.commited .two::after {
+    content: '';
+    height: 8px;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background-color: #5a67b2;
+    transform: translate(-50%, -50%);
+}
+
+.commited .two h6 {
+    padding: 45px 220px 0 220px;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+
+
+/* ------------------------------------------------------
+--------- partners sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+
+.partners {
+    padding: 150px 0;
+}
+
+.partners h2 {
+    font-size: 59px;
+    font-weight: 400;
+    color: #3d3d3d;
+    text-align: center;
+    padding: 0px 0 100px 0;
+}
+
+.partners .bottom_partner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 0
+}
+
+
+/* ------------------------------------------------------
+--------- updates section Css Starts from here- ------
+------------------------------------------------------ */
+
+
+#recent_update {
+    background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
+    padding: 130px 0;
+    position: relative;
+}
+
+#recent_update h2 {
+    color: #3d3d3d;
+    padding-bottom: 35px;
+    font-size: 59px;
+}
+
+#recent_update .recent_slider {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#recent_update .slick-slide {
+    margin: 0px 15px;
+}
+
+#recent_update .recent_slide_item {
+    background: #5463b7;
+    padding: 45px;
+    border-radius: 12px;
+}
+
+#recent_update .recent_slide_item p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#recent_update .recent_slide_item p.date {
+    color: white;
+    font-size: 25px;
+}
+
+#recent_update .recent_slide_item hr {
+    height: 1px;
+    background: yellow;
+    margin: 15px 0px;
+}
+
+#recent_update .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    bottom: -40px;
+}
+
+#recent_update .slick-dots li {
+    padding: 0px 15px;
+}
+
+#recent_update .slick-dots li button {
+    font-size: 0px;
+    height: 10px;
+    width: 10px;
+    background: #5463b7;
+    border-radius: 50%;
+    border: 1px solid #5463b7;
+}
+
+#recent_update .slick-dots li.slick-active button {
+    font-size: 0px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #5463b7;
+}
+
+/* ------------------------------------------------------
+--------- footer section Css Starts from here- ------
+------------------------------------------------------ */
+
+
+.footer {
+    padding: 70px 0px 300px 0;
+    background-color: #5E6AA7;
+}
+
+.footer h6 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .mark2 {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.footer .links {
+    padding-top: 100px;
+}
+
+.footer .links ul li {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.footer .links ul li .icon {
+    height: 50px;
+    width: 50px;
+    background: white;
+    color: #5e6aa7;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.footer .links ul li a {
+    color: white;
+    transition: all linear 0.4s;
+    font-size: 22px;
+}
+
+.footer .links ul li a:hover {
+    color: rgb(217, 142, 4);
+}
+
+
+
+
+/* responsive css ========================================================= */
+
+
+@media only screen and (min-width: 1960px) {
+    .container {
+        max-width: 1450px
+    }
+
+    .touchable .touchable_image img {
+        width: 84%;
+    }
+
+    .touchable .touchable_bottom p {
+        padding-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .usability .content p {
+        font-size: 24px;
+    }
+
+    .usability .content ul li {
+        font-size: 21px;
+    }
+
+    .usability {
+        padding: 120px 0;
+    }
+
+    .commited .two h6 {
+        padding: 45px 260px 0 260px;
+        font-size: 26px;
+    }
+
+    #recent_update .recent_slide_item p {
+        font-size: 21px;
+    }
+
+    #recent_update .recent_slide_item hr {
+        margin: 16px 0px;
+    }
+
+
+
 }
