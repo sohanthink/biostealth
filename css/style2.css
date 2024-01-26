@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Nunito Sans', sans-serif; */
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.menu {
+    padding: 20px 0;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.menu nav img {
+    width: 100%;
+}
+
+.menu nav ul li {
+    padding: 10px 20px;
+}
+
+.menu nav ul li a {
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+}
+
+/* .menu nav .nav-item.active {
+    color: black !important;
+    background-color: red;
+} */
+
+.menu nav ul li .dropdown-menu a {
+    color: rgb(0, 0, 0);
+}
+
+.menu nav ul li .contact_btn {
+    background-color: #6270a7;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.navbar-brand {
+    width: 30%;
+}
+
+/* ------------------------------------------------------
+--------- Banner Css Starts from here- ------------------
+------------------------------------------------------ */
+
+.banner .content {
+    background-image: url(../images2/banner/biostealth.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.banner .content h2 {
+    padding: 410px 0 325px 0;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+/* ------------------------------------------------------
+--------- live data sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+.live {
+    width: 100%;
+    background-image: url(../images2/live/Data\ Frames\ background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+/* .live .rotating-shape {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+}
+
+/* .live .rotating-shape img {
+    Apply animation
+animation: rotateAnimation 5s linear infinite;
+width: 100%;
+} */
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+        /* Start position */
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /* End position */
+    }
+}
+
+*/ .live .main {
+    padding: 120px 0;
+
+}
+
+.live .main .one span {
+    font-size: 35px;
+}
+
+.live .main h2 {
+    font-size: 150px;
+    color: #5a67b2;
+    font-weight: bold;
+}
+
+.live .main h4 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 55px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    padding: 10px;
+}
+
+.live .main h5 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.live .main p {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.live .main h4 span {
+    color: rgb(217, 142, 4);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
+    font-style: italic;
+}
+
+
+
+
+/* ------------------------------------------------------
+--------- touchable sectiojn Css Starts from here- ------
+------------------------------------------------------ */
+
+
+.touchable {
+    width: 100%;
+}
+
+.touchable .content {
+    padding: 80px 0;
+}
+
+.touchable .touchable_image img {
+    width: 100%;
+}
+
+.touchable .content .top_content p {
+    font-size: 27px;
+    padding: 15px 0;
+    color: #5a67b2;
+}
+
+.touchable .content .top_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.touchable .touchable_bottom {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.touchable .touchable_bottom p {
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+.touchable .touchable_bottom p::after {
+    content: '';
+    height: 8px;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: #5a67b2;
+    transform: translate(-50%, -50%);
+}
+
+.touchable .touchable_bottom h6 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* ------------------------------------------------------
+--------- usability section Css Starts from here- ------
+------------------------------------------------------ */
+
+.usability {
+    background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
+    padding: 80px 0;
+}
+
+.usability .content p {
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.usability .content h2 {
+    text-align: center;
+    color: white;
+    background: #5a67b2;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.usability .content ul li {
+    list-style-type: disc;
+    font-size: 19px;
+    padding: 0 10px;
+    line-height: 35px;
+
+}
+
+.usability_bottom {
+    padding-top: 50px;
+}
+
+.usability_bottom .content .data {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.usability_bottom .content span {
+    color: rgb(217, 142, 4);
+    font-size: 22px;
+}
+
+.usability_bottom .content span h4 {
+    color: #5a67b2;
+    font-size: 33px;
+}

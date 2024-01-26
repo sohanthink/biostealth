@@ -127,11 +127,11 @@ ol {
     left: 100px;
 }
 
-.live .rotating-shape img {
-    /* Apply animation */
+/* .live .rotating-shape img {
+    Apply animation
 animation: rotateAnimation 5s linear infinite;
 width: 100%;
-}
+} */
 
 @keyframes rotateAnimation {
     0% {
