@@ -397,13 +397,13 @@ width: 100%;
 
 #recent_update {
     background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
-    padding: 130px 0;
+    padding: 120px 0;
     position: relative;
 }
 
 #recent_update h2 {
-    color: #3d3d3d;
-    padding-bottom: 35px;
+    color: #ffffff;
+    padding-bottom: 65px;
     font-size: 59px;
 }
 
@@ -417,14 +417,14 @@ width: 100%;
 }
 
 #recent_update .recent_slide_item {
-    background: #5463b7;
+    background: #5a67b2;
     padding: 45px;
     border-radius: 12px;
 }
 
 #recent_update .recent_slide_item p {
     color: white;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -858,7 +858,7 @@ width: 100%;
     }
 
     #recent_update .recent_slide_item p {
-        font-size: 21px;
+        font-size: 25px;
     }
 
     #recent_update .recent_slide_item hr {
