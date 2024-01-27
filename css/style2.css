@@ -570,11 +570,17 @@ width: 100%;
 }
 
 .about_founder .container p {
-    font-size: 25px;
-    line-height: 60px;
-    text-align: center;
+    font-size: 22px;
 }
 
+/* .about_founder .founder_main img {
+    width: 50%;
+} */
+
+/* .about_founder .founder_main {
+    display: flex;
+    flex-direction: column;
+} */
 
 
 /*  ============================
