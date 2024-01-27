@@ -295,6 +295,10 @@ width: 100%;
 
 }
 
+.usability .content ul li::marker {
+    color: rgb(232, 156, 14);
+}
+
 .usability_bottom {
     padding-top: 70px;
 }
@@ -858,11 +862,15 @@ width: 100%;
     }
 
     #recent_update .recent_slide_item p {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #recent_update .recent_slide_item hr {
         margin: 16px 0px;
+    }
+
+    .about_founder .container p {
+        font-size: 27px;
     }
 
 
