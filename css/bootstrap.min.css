@@ -3673,7 +3673,7 @@ tbody.collapse.show {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #007bff
+    /* background-color: #007bff */
 }
 
 .dropdown-item.disabled,

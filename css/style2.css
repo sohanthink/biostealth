@@ -105,11 +105,16 @@ ol {
 
 .banner {
     width: 100%;
+}
 
+.banner .content .inner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed */
 }
 
 .banner .content h2 {
-    padding: 410px 0 325px 0;
     color: aliceblue;
     font-size: 50px;
     font-weight: 700;
@@ -662,6 +667,7 @@ width: 100%;
     color: #5a67b2;
     text-align: center;
     white-space: normal;
+    font-size: 20px;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content:hover {
@@ -811,6 +817,7 @@ width: 100%;
 
 #index-team .modal .modal-body p {
     padding-top: 25px;
+    font-size: 20px;
 }
 
 #index-team .modal .modal-body i {
@@ -828,7 +835,118 @@ width: 100%;
 
 
 /* responsive css ========================================================= */
+@media (max-width: 575.98px) {
+    .banner .content h2 {
+        font-size: 28px;
+    }
 
+    .live {
+        padding: 100px 0;
+    }
+
+    .live .main h4 {
+        font-size: 30px;
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    .touchable .content .top_content p {
+        font-size: 23px;
+        padding-bottom: 30px;
+    }
+
+    .touchable .touchable_bottom p {
+        padding-bottom: 13px;
+        font-size: 20px;
+    }
+
+    .usability .content h2 {
+        font-size: 16px;
+        padding: 15px 0;
+        margin-top: 50px;
+    }
+
+    .usability {
+        padding: 100px 10px;
+    }
+
+    .usability_bottom {
+        padding-top: 0px;
+    }
+
+    .usability img {
+        padding-top: 30px;
+    }
+
+    .commited .one h3 {
+        font-size: 30px;
+    }
+
+    .commited .two p {
+        font-size: 22px;
+    }
+
+    .commited .two h6 {
+        padding: 14px 90px 0 90px;
+        font-size: 17px;
+    }
+
+    .commited .two::after {
+        content: '';
+        height: 5px;
+        top: 30%;
+    }
+
+    .partners {
+        padding: 90px 8px;
+    }
+
+    #recent_update h2 {
+        font-size: 45px;
+    }
+
+    .live .main p {
+        font-size: 28px;
+        padding: 30px 36px;
+        text-align: left;
+    }
+
+    .partners .bottom_partner {
+        gap: 20px;
+    }
+
+    .partners .bottom_partner img {
+        width: 100%;
+    }
+
+    .footer h6 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .footer .mark2 {
+        width: 94%;
+    }
+
+    .footer .links ul li {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding: 70px 30px 70px 30px;
+        background-color: #5E6AA7;
+    }
+
+    .footer .links ul li a {
+        color: white;
+        transition: all linear 0.4s;
+        font-size: 13px;
+    }
+
+    .footer .links ul li .icon {
+        margin-bottom: 20px;
+    }
+}
 
 @media only screen and (min-width: 1960px) {
     .container {
