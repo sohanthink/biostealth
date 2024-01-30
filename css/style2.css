@@ -849,9 +849,18 @@ width: 100%;
     }
 
     .live .main h4 {
-        font-size: 30px;
+        font-size: 21px;
         padding: 10px 0;
         margin-top: 10px;
+        line-height: 36px;
+    }
+
+    .live .main h5 {
+        font-size: 17px;
+    }
+
+    .touchable {
+        padding: 10px;
     }
 
     .touchable .content .top_content p {
@@ -865,7 +874,7 @@ width: 100%;
     }
 
     .usability .content h2 {
-        font-size: 16px;
+        font-size: 13px;
         padding: 15px 0;
         margin-top: 50px;
     }
@@ -891,7 +900,7 @@ width: 100%;
     }
 
     .commited .two h6 {
-        padding: 14px 90px 0 90px;
+        padding: 14px 65px 0 65px;
         font-size: 17px;
     }
 
@@ -910,8 +919,8 @@ width: 100%;
     }
 
     .live .main p {
-        font-size: 28px;
-        padding: 30px 36px;
+        font-size: 23px;
+        padding: 30px 15px 36px 36px;
         text-align: left;
     }
 
@@ -939,6 +948,12 @@ width: 100%;
     .footer {
         padding: 70px 30px 70px 30px;
         background-color: #5E6AA7;
+    }
+
+    .footer .left,
+    .right,
+    .middle {
+        width: 33%;
     }
 
     .footer .links ul li a {
