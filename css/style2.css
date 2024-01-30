@@ -817,7 +817,7 @@ width: 100%;
 
 #index-team .modal .modal-body p {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #index-team .modal .modal-body i {
@@ -965,6 +965,39 @@ width: 100%;
     .footer .links ul li .icon {
         margin-bottom: 20px;
     }
+
+    .about_banner {
+        height: 585px;
+    }
+
+    .about_banner .banner_mark h2 {
+        font-size: 56px;
+    }
+
+    .about_founder .content {
+        padding: 60px 10px;
+    }
+
+    .about_founder .container p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    #index-team .modal-dialog {
+        max-width: 95%;
+    }
+
+    .modal-body {
+        padding: 0rem;
+    }
+
+
+
+
+
+
+
 }
 
 @media only screen and (min-width: 1960px) {
