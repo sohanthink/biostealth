@@ -837,7 +837,11 @@ width: 100%;
 /* responsive css ========================================================= */
 @media (max-width: 575.98px) {
     .banner .content h2 {
-        font-size: 28px;
+        font-size: 22px;
+    }
+
+    .live .main h2 {
+        font-size: 90px;
     }
 
     .live {
