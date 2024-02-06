@@ -1,31 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    /* font-family: 'Nunito Sans', sans-serif; */
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 a,
 a:hover,
 a:focus {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clr {
-    clear: both;
+  clear: both;
 }
 
 h1,
@@ -39,34 +39,32 @@ a,
 ul,
 li,
 ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-
-
 .menu {
-    padding: 20px 0;
-    z-index: 1;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1
+  padding: 20px 0;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .menu nav img {
-    width: 100%;
+  width: 100%;
 }
 
 .menu nav ul li {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 .menu nav ul li a {
-    color: rgb(255, 255, 255);
-    white-space: nowrap;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
 }
 
 /* .menu nav .nav-item.active {
@@ -75,19 +73,19 @@ ol {
 } */
 
 .menu nav ul li .dropdown-menu a {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .menu nav ul li .contact_btn {
-    background-color: #6270a7;
-    color: rgb(255, 255, 255);
-    padding: 10px 22px;
-    border-radius: 25px;
-    white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+  color: #6270a7;
+  padding: 10px 22px;
+  border-radius: 25px;
+  white-space: nowrap;
 }
 
 .navbar-brand {
-    width: 30%;
+  width: 30%;
 }
 
 /* ------------------------------------------------------
@@ -95,491 +93,504 @@ ol {
 ------------------------------------------------------ */
 
 .banner .content {
-    background-image: url(../images2/banner/biostealth.gif);
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
-    background-position: right;
+  background-image: url(../images2/banner/biostealth.gif);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
 }
 
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 .banner .content .inner {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* Adjust as needed */
 }
 
 .banner .content h2 {
-    color: aliceblue;
-    font-size: 50px;
-    font-weight: 700;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 700;
 }
-
-
 
 /* ------------------------------------------------------
 --------- live data sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
 
 .live {
-    width: 100%;
-    background-image: url(../images2/live/Data\ Frames\ background.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    padding: 200px 0;
+  width: 100%;
+  background-image: url(../images2/live/Data\ Frames\ background.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 200px 0;
 }
 
-/* .live .rotating-shape {
-    position: absolute;
-    top: -100px;
-    left: 100px;
+.live .main {
+  padding: 120px 0;
 }
-
-/* .live .rotating-shape img {
-    Apply animation
-animation: rotateAnimation 5s linear infinite;
-width: 100%;
-} */
-
-@keyframes rotateAnimation {
-    0% {
-        transform: rotate(0deg);
-        /* Start position */
-    }
-
-    100% {
-        transform: rotate(360deg);
-        /* End position */
-    }
+.live .main .one {
+  background-color: #d7d7d6;
+  padding: 20px;
+  border-radius: 20px;
 }
-
-*/ .live .main {
-    padding: 120px 0;
-
-}
-
 .live .main .one span {
-    font-size: 35px;
+  font-size: 35px;
+  color: rgb(217, 142, 4);
+}
+.live .main .title {
+  display: flex;
+  gap: 20px;
+}
+.live .main .title h6 {
+  font-size: 30px;
+  padding-top: 25px;
+  font-weight: 300;
 }
 
 .live .main h2 {
-    font-size: 150px;
-    color: #5a67b2;
-    font-weight: bold;
+  font-size: 120px;
+  color: #5a67b2;
+  font-weight: 700;
 }
 
 .live .main h4 {
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 55px;
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-    padding: 10px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  padding: 10px;
 }
 
 .live .main h5 {
-    font-size: 28px;
-    font-weight: 300;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .live .main p {
-    font-size: 30px;
-    font-weight: 400;
-    font-style: italic;
-    padding: 70px 0px;
-    text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 70px 0px;
+  text-align: center;
 }
 
 .live .main h4 span {
-    color: rgb(217, 142, 4);
-    font-size: 40px;
-    font-weight: 500;
-    font-family: cursive;
-    font-style: italic;
+  color: rgb(217, 142, 4);
+  font-size: 40px;
+  font-weight: 500;
+  font-family: cursive;
+  font-style: italic;
 }
-
-
-
 
 /* ------------------------------------------------------
 --------- touchable sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
 
-
 .touchable {
-    width: 100%;
+  width: 100%;
 }
 
 .touchable .content {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 .touchable .touchable_image img {
-    width: 100%;
+  width: 100%;
 }
 
 .touchable .content .top_content p {
-    font-size: 27px;
-    padding: 15px 0;
-    color: #5a67b2;
+  font-size: 27px;
+  padding: 15px 0;
+  color: #5a67b2;
 }
 
 .touchable .content .top_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
-
 .touchable .touchable_bottom {
-    text-align: center;
-    padding-top: 150px;
+  text-align: center;
+  padding-top: 150px;
 }
 
 .touchable .touchable_bottom p {
-    padding-bottom: 40px;
-    font-size: 22px;
+  padding-bottom: 40px;
+  font-size: 22px;
 }
 
 .touchable .touchable_bottom p::after {
-    content: '';
-    height: 8px;
-    width: 80%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    background-color: #5a67b2;
-    transform: translate(-50%, -50%);
+  content: "";
+  height: 8px;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background-color: #5a67b2;
+  transform: translate(-50%, -50%);
 }
 
 .touchable .touchable_bottom h6 {
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 300;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
+/* ------------------------------------------------------
+--------- technology section Css Starts from here- ------
+------------------------------------------------------ */
+
+.technology {
+  background-color: #5a6aaf;
+  padding: 100px 0;
+}
+.technology h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 130px;
+  font-weight: 400;
+}
+.technology .content {
+  text-align: center;
+  padding: 50px;
+}
+.technology .content img {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.technology .content span {
+  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
 
 /* ------------------------------------------------------
 --------- usability section Css Starts from here- ------
 ------------------------------------------------------ */
 
 .usability {
-    background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
-    padding: 100px 0;
+  /* background: linear-gradient(90deg, #aaafcd 0%, #dadce9 100%); */
+  background-color: white;
+  padding: 100px 0;
 }
 
 .usability img {
-    border-radius: 15%;
+  border-radius: 15%;
 }
 
 .usability .content p {
-    font-size: 20px;
-    padding: 40px 0;
+  font-size: 20px;
+  padding: 40px 0;
 }
 
 .usability .content h2 {
-    text-align: center;
-    color: white;
-    background: #5a67b2;
-    border-radius: 30px;
-    font-size: 25px;
-    padding: 15px 0;
+  text-align: center;
+  color: white;
+  background: #5a67b2;
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 15px 0;
 }
 
 .usability .content ul li {
-    list-style-type: disc;
-    font-size: 19px;
-    padding: 0 10px;
-    line-height: 35px;
-
+  list-style-type: disc;
+  font-size: 19px;
+  padding: 0 10px;
+  line-height: 35px;
 }
 
 .usability .content ul li::marker {
-    color: rgb(232, 156, 14);
+  color: rgb(232, 156, 14);
 }
 
 .usability_bottom {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .usability_bottom .content .data {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.usability_bottom .content .data .data_content {
+  width: 30%;
+  background-color: #d7d7d6;
+  padding: 15px;
+  border-radius: 20px;
+}
+.usability_bottom .content .data .data_content .data_content_active {
+  display: flex;
+  gap: 10px;
 }
 
-.usability_bottom .content span {
-    color: rgb(232, 156, 14);
-    font-size: 22px;
+.usability_bottom .content h6 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.usability_bottom .content h6 span {
+  color: rgb(232, 156, 14);
 }
 
-.usability_bottom .content span h4 {
-    color: #5a67b2;
-    font-size: 33px;
+.usability_bottom .content .data_content h5 {
+  font-size: 18px;
+  font-weight: 300;
 }
 
+.usability_bottom .content .data_content h4 {
+  color: #5a67b2;
+  font-size: 65px;
+}
 
 /* ------------------------------------------------------
 --------- comited sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
 
 .commited {
-    background-image: url(../images/Competitive\ proposition.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 0;
-    text-align: center;
-    background-attachment: fixed;
+  background-image: url(../images/Competitive\ proposition.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  text-align: center;
+  background-attachment: fixed;
 }
 
 .commited .one h3 {
-    font-size: 35px;
-    font-weight: 400;
-    padding: 0 10px 40px 10px;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 0 10px 40px 10px;
 }
 
 .commited .two p {
-    font-size: 33px;
+  font-size: 33px;
 }
 
 .commited .two {
-    margin-bottom: 40px;
-    position: relative;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .commited .two::after {
-    content: '';
-    height: 8px;
-    width: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    background-color: #5a67b2;
-    transform: translate(-50%, -50%);
+  content: "";
+  height: 8px;
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-color: #5a67b2;
+  transform: translate(-50%, -50%);
 }
 
 .commited .two h6 {
-    padding: 45px 220px 0 220px;
-    font-size: 23px;
-    font-weight: 300;
-    margin-top: 25px;
+  padding: 45px 165px 0 165px;
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 25px;
 }
-
-
 
 /* ------------------------------------------------------
 --------- partners sectiojn Css Starts from here- ------
 ------------------------------------------------------ */
 
-
 .partners {
-    padding: 150px 0;
+  padding: 150px 0;
 }
 
 .partners h2 {
-    font-size: 59px;
-    font-weight: 400;
-    color: #3d3d3d;
-    text-align: center;
-    padding: 0px 0 100px 0;
+  font-size: 59px;
+  font-weight: 400;
+  color: #3d3d3d;
+  text-align: center;
+  padding: 0px 0 100px 0;
 }
 
 .partners .bottom_partner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    padding: 60px 0
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 60px 0;
 }
-
 
 /* ------------------------------------------------------
 --------- updates section Css Starts from here- ------
 ------------------------------------------------------ */
 
-
 #recent_update {
-    background: linear-gradient(90deg, #AAAFCD 0%, #DADCE9 100%);
-    padding: 120px 0;
-    position: relative;
+  background: linear-gradient(90deg, #aaafcd 0%, #dadce9 100%);
+  padding: 120px 0;
+  position: relative;
 }
 
 #recent_update h2 {
-    color: #ffffff;
-    padding-bottom: 65px;
-    font-size: 59px;
+  color: #ffffff;
+  padding-bottom: 65px;
+  font-size: 59px;
 }
 
 #recent_update .recent_slider {
-    width: 100%;
-    margin: 0px auto;
+  width: 100%;
+  margin: 0px auto;
 }
 
 #recent_update .slick-slide {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
 
 #recent_update .recent_slide_item {
-    background: #5a67b2;
-    padding: 45px;
-    border-radius: 12px;
+  background: #5a67b2;
+  padding: 45px;
+  border-radius: 12px;
 }
 
 #recent_update .recent_slide_item p {
-    color: white;
-    font-size: 22px;
-    font-weight: 400;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 #recent_update .recent_slide_item p.date {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
 
 #recent_update .recent_slide_item hr {
-    height: 1px;
-    background: yellow;
-    margin: 15px 0px;
+  height: 1px;
+  background: yellow;
+  margin: 15px 0px;
 }
 
 #recent_update .slick-dots {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex !important;
-    bottom: -40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+  bottom: -40px;
 }
 
 #recent_update .slick-dots li {
-    padding: 0px 15px;
+  padding: 0px 15px;
 }
 
 #recent_update .slick-dots li button {
-    font-size: 0px;
-    height: 10px;
-    width: 10px;
-    background: #5463b7;
-    border-radius: 50%;
-    border: 1px solid #5463b7;
+  font-size: 0px;
+  height: 10px;
+  width: 10px;
+  background: #5463b7;
+  border-radius: 50%;
+  border: 1px solid #5463b7;
 }
 
 #recent_update .slick-dots li.slick-active button {
-    font-size: 0px;
-    background: white;
-    border-radius: 50%;
-    border: 1px solid #5463b7;
+  font-size: 0px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid #5463b7;
 }
 
 /* ------------------------------------------------------
 --------- footer section Css Starts from here- ------
 ------------------------------------------------------ */
 
-
 .footer {
-    padding: 70px 0px 300px 0;
-    background-color: #5E6AA7;
+  padding: 70px 0px 300px 0;
+  background-color: #5e6aa7;
 }
 
 .footer h6 {
-    color: #ffffff;
-    font-size: 30px;
-    margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .footer .mark2 {
-    width: 100%;
-    height: 3px;
-    background-color: white;
+  width: 100%;
+  height: 3px;
+  background-color: white;
 }
 
 .footer .links {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .footer .links ul li {
-    font-size: 24px;
-    color: white;
-    padding-bottom: 12px;
+  font-size: 24px;
+  color: white;
+  padding-bottom: 12px;
 }
 
 .footer .links ul li .icon {
-    height: 50px;
-    width: 50px;
-    background: white;
-    color: #5e6aa7;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    margin-bottom: 80px;
+  height: 50px;
+  width: 50px;
+  background: white;
+  color: #5e6aa7;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 80px;
 }
 
 .footer .links ul li a {
-    color: white;
-    transition: all linear 0.4s;
-    font-size: 22px;
+  color: white;
+  transition: all linear 0.4s;
+  font-size: 22px;
 }
 
 .footer .links ul li a:hover {
-    color: rgb(217, 142, 4);
+  color: rgb(217, 142, 4);
 }
 
 /* ------------------------------------------------------
 --------- avout page Css Starts from here- --------------
 ------------------------------------------------------ */
 
-
 /* ------------------------------------------------------
 --------- avout banner section Css Starts from here- ----
 ------------------------------------------------------ */
 
-
-
-
 .about_banner {
-    background: linear-gradient(90deg, #646FAA 0%, #BCC1DB 100%);
-    width: 100%;
-    height: 750px;
+  background: linear-gradient(90deg, #646faa 0%, #bcc1db 100%);
+  width: 100%;
+  height: 750px;
 }
 
 .about_banner .banner_mark h2 {
-    color: #ffffff;
-    font-size: 65px;
-    position: relative;
+  color: #ffffff;
+  font-size: 65px;
+  position: relative;
 }
 
 .about_banner .banner_mark h2::before {
-    content: '';
-    position: absolute;
-    width: 147px;
-    transform: translateX(40%);
-    border: 3px solid rgb(217, 142, 4);
-    top: 95px;
+  content: "";
+  position: absolute;
+  width: 147px;
+  transform: translateX(40%);
+  border: 3px solid rgb(217, 142, 4);
+  top: 95px;
 }
-
-
-
-
 
 /* ------------------------------------------------------
 --------- about_founder section Css Starts from here- ----
 ------------------------------------------------------ */
 
 .about_founder {
-    width: 100%;
+  width: 100%;
 }
 
 .about_founder .content {
-    padding: 150px 50px;
+  padding: 150px 50px;
 }
 
 .about_founder .container p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 /* .about_founder .founder_main img {
@@ -591,954 +602,961 @@ width: 100%;
     flex-direction: column;
 } */
 
-
 /*  ============================
         core team part start
    ===============================*/
 #index-team {
-    padding-top: 68px;
-    padding-bottom: 112px;
+  padding-top: 68px;
+  padding-bottom: 112px;
 }
 
 #index-team .head h3 {
-    padding-bottom: 50px;
-    color: #5b67b2;
-    font-size: 60px;
+  padding-bottom: 50px;
+  color: #5b67b2;
+  font-size: 60px;
 }
 
 #index-team .team-header p {
-    padding-left: 40px;
-    padding-bottom: 68px;
+  padding-left: 40px;
+  padding-bottom: 68px;
 }
 
 #index-team .team-member-slider .memberImages {
-    margin: 0 auto;
-    cursor: pointer;
-    padding: 10px;
-    transition: all linear 0.4s;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 10px;
+  transition: all linear 0.4s;
 }
 
 #index-team .team-member-slider .memberImages:hover {
-    background: #f2f3f5;
-    border-radius: 6px
+  background: #f2f3f5;
+  border-radius: 6px;
 }
 
-
-
 #index-team .team-member-slider .memberImages .member-img {
-    position: relative;
-    border-radius: 7px;
-    text-align: center;
-    /* margin: 100px 25px 0px 25px */
-    padding: 50px 10px;
+  position: relative;
+  border-radius: 7px;
+  text-align: center;
+  /* margin: 100px 25px 0px 25px */
+  padding: 50px 10px;
 }
 
 #index-team .team-member-slider .memberImages .member-img img {
-    height: auto;
-    width: 120px;
-    border-radius: 50%;
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content {
-    height: 100%;
-    width: 100%;
-    padding: 10px 0px;
-    white-space: nowrap;
-    text-align: center;
-    border-radius: 7px;
-    transition: all linear 0.1s;
-    color: #5a67b2;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0px;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 7px;
+  transition: all linear 0.1s;
+  color: #5a67b2;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content h3 {
-    color: #5a67b2;
-    padding-bottom: 20;
-    font-style: normal;
-    white-space: normal;
-    font-size: 26px;
+  color: #5a67b2;
+  padding-bottom: 20;
+  font-style: normal;
+  white-space: normal;
+  font-size: 26px;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content h4 {
-    padding-bottom: 20px;
-    color: #5a67b2;
+  padding-bottom: 20px;
+  color: #5a67b2;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content p {
-    color: #5a67b2;
-    text-align: center;
-    white-space: normal;
-    font-size: 20px;
+  color: #5a67b2;
+  text-align: center;
+  white-space: normal;
+  font-size: 20px;
 }
 
-#index-team .team-member-slider .memberImages .member-img .memeber__content:hover {
-    opacity: 1;
-    transition: all linear 0.3s;
+#index-team
+  .team-member-slider
+  .memberImages
+  .member-img
+  .memeber__content:hover {
+  opacity: 1;
+  transition: all linear 0.3s;
 }
 
 #index-team .team-member-slider .memberImages .member-img .memeber__content h4 {
-    font-size: 21px;
-    padding-top: 10px;
-    font-weight: 500;
-    font-style: normal;
+  font-size: 21px;
+  padding-top: 10px;
+  font-weight: 500;
+  font-style: normal;
 }
 
-#index-team .team-member-slider .memberImages .member-img .memeber__content:hover h3 {
-    top: 38%;
-    transition: all linear 0.3s;
+#index-team
+  .team-member-slider
+  .memberImages
+  .member-img
+  .memeber__content:hover
+  h3 {
+  top: 38%;
+  transition: all linear 0.3s;
 }
 
-#index-team .team-member-slider .memberImages .member-img .memeber__content:hover p {
-    bottom: 20%;
-    transition: all linear 0.3s;
+#index-team
+  .team-member-slider
+  .memberImages
+  .member-img
+  .memeber__content:hover
+  p {
+  bottom: 20%;
+  transition: all linear 0.3s;
 }
 
 #index-team .team-member-slider .memberImages img {
-    height: 100%;
-    margin: 0 auto;
+  height: 100%;
+  margin: 0 auto;
 }
 
 #index-team .team-member-slider .membersDetails {
-    text-align: center;
-    padding-top: 27px;
+  text-align: center;
+  padding-top: 27px;
 }
 
 #index-team .team-member-slider .membersDetails .memberItem {
-    float: left;
-    text-align: center;
+  float: left;
+  text-align: center;
 }
 
 #index-team .team-member-slider .membersDetails .memberItem h5 {
-    font-size: 20px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #5a67b2;
-    padding-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a67b2;
+  padding-bottom: 8px;
 }
 
 #index-team .team-member-slider .membersDetails .memberItem p {
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #5a67b2;
-    padding-bottom: 65px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a67b2;
+  padding-bottom: 65px;
 }
 
 #index-team .m-btn {
-    padding: 0px 13px 0 50px;
-    position: relative;
-    font-size: 18px;
-    -webkit-transition: all linear 0.3s 0s;
-    -moz-transition: all linear 0.3s 0s;
-    -o-transition: all linear 0.3s 0s;
-    transition: all linear 0.3s 0s;
-    background-color: #5a67b2;
-    padding: 10px 15px;
+  padding: 0px 13px 0 50px;
+  position: relative;
+  font-size: 18px;
+  -webkit-transition: all linear 0.3s 0s;
+  -moz-transition: all linear 0.3s 0s;
+  -o-transition: all linear 0.3s 0s;
+  transition: all linear 0.3s 0s;
+  background-color: #5a67b2;
+  padding: 10px 15px;
 }
 
 #index-team .m-btn span {
-    padding-left: 35px;
-    color: white;
+  padding-left: 35px;
+  color: white;
 }
 
 #index-team .m-btn i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10px;
-    font-size: 30px;
-    display: inline-block;
-    line-height: 40px;
-    background-color: transparent;
-    color: white;
-    -webkit-transition: all linear 0.3s 0s;
-    -moz-transition: all linear 0.3s 0s;
-    -o-transition: all linear 0.3s 0s;
-    transition: all linear 0.3s 0s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 40px;
+  background-color: transparent;
+  color: white;
+  -webkit-transition: all linear 0.3s 0s;
+  -moz-transition: all linear 0.3s 0s;
+  -o-transition: all linear 0.3s 0s;
+  transition: all linear 0.3s 0s;
 }
 
 #index-team .m-btn:hover {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 #index-team .modal-dialog {
-    max-width: 70%;
+  max-width: 70%;
 }
 
 #index-team .modal-dialog .modal-content {
-    border-radius: 15px;
-    padding: 0px 50px;
+  border-radius: 15px;
+  padding: 0px 50px;
 }
 
 #index-team .modal {
-    background: #00000036;
+  background: #00000036;
 }
 
 #index-team .modal .modal-header {
-    padding: 0;
-    padding-top: 25px;
-    border-bottom: 0px;
+  padding: 0;
+  padding-top: 25px;
+  border-bottom: 0px;
 }
 
 #index-team .modal .modal-body .team_user_avata {
-    padding: 20px 0px 20px 120px;
-    position: relative;
+  padding: 20px 0px 20px 120px;
+  position: relative;
 }
 
 #index-team .modal .modal-body .team_user_avata img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    top: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0px;
 }
 
 #index-team .modal .modal-body .team_user_avata h3 {
-    text-align: left;
-    font-size: 27px;
-    font-style: normal;
-
+  text-align: left;
+  font-size: 27px;
+  font-style: normal;
 }
 
 #index-team .modal .modal-body .team_user_avata h4 {
-    text-align: left;
-    font-size: 21px;
-    font-weight: 500;
-    font-style: normal;
+  text-align: left;
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #index-team .modal .modal-body p {
-    padding-top: 25px;
-    font-size: 18px;
+  padding-top: 25px;
+  font-size: 18px;
 }
 
 #index-team .modal .modal-body i {
-    background: #e9e9e9;
-    padding: 10px;
-    border-radius: 50%;
+  background: #e9e9e9;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 /*  ============================
           core team part end
   ============================ */
 
-
-
-
-
 /* responsive css ========================================================= */
 @media (max-width: 575.98px) {
-    .banner .content h2 {
-        font-size: 22px;
-    }
+  .banner .content h2 {
+    font-size: 22px;
+  }
 
-    .live .main h2 {
-        font-size: 90px;
-    }
+  .live .main h2 {
+    font-size: 90px;
+  }
 
-    .live {
-        padding: 100px 0;
-    }
+  .live {
+    padding: 100px 0;
+  }
 
-    .live .main h4 {
-        font-size: 21px;
-        padding: 10px 0;
-        margin-top: 10px;
-        line-height: 36px;
-    }
+  .live .main h4 {
+    font-size: 21px;
+    padding: 10px 0;
+    margin-top: 10px;
+    line-height: 36px;
+  }
 
-    .live .main h5 {
-        font-size: 17px;
-    }
+  .live .main h5 {
+    font-size: 17px;
+  }
 
-    .touchable {
-        padding: 10px;
-    }
+  .touchable {
+    padding: 10px;
+  }
 
-    .touchable .content .top_content p {
-        font-size: 23px;
-        padding-bottom: 30px;
-    }
+  .touchable .content .top_content p {
+    font-size: 23px;
+    padding-bottom: 30px;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 13px;
-        font-size: 20px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 13px;
+    font-size: 20px;
+  }
 
-    .usability .content h2 {
-        font-size: 13px;
-        padding: 15px 0;
-        margin-top: 50px;
-    }
+  .usability .content h2 {
+    font-size: 13px;
+    padding: 15px 0;
+    margin-top: 50px;
+  }
 
-    .usability {
-        padding: 100px 10px;
-    }
+  .usability {
+    padding: 100px 10px;
+  }
 
-    .usability_bottom {
-        padding-top: 0px;
-    }
+  .usability_bottom {
+    padding-top: 0px;
+  }
 
-    .usability img {
-        padding-top: 30px;
-    }
+  .usability img {
+    padding-top: 30px;
+  }
 
-    .commited .one h3 {
-        font-size: 30px;
-    }
+  .commited .one h3 {
+    font-size: 30px;
+  }
 
-    .commited .two p {
-        font-size: 22px;
-    }
+  .commited .two p {
+    font-size: 22px;
+  }
 
-    .commited .two h6 {
-        padding: 14px 65px 0 65px;
-        font-size: 17px;
-    }
+  .commited .two h6 {
+    padding: 14px 65px 0 65px;
+    font-size: 17px;
+  }
 
-    .commited .two::after {
-        content: '';
-        height: 5px;
-        top: 30%;
-    }
+  .commited .two::after {
+    content: "";
+    height: 5px;
+    top: 30%;
+  }
 
-    .partners {
-        padding: 90px 8px;
-    }
+  .partners {
+    padding: 90px 8px;
+  }
 
-    #recent_update h2 {
-        font-size: 45px;
-    }
+  #recent_update h2 {
+    font-size: 45px;
+  }
 
-    .live .main p {
-        font-size: 23px;
-        padding: 30px 15px 36px 36px;
-        text-align: left;
-    }
+  .live .main p {
+    font-size: 23px;
+    padding: 30px 15px 36px 36px;
+    text-align: left;
+  }
 
-    .partners .bottom_partner {
-        gap: 20px;
-    }
+  .partners .bottom_partner {
+    gap: 20px;
+  }
 
-    .partners .bottom_partner img {
-        width: 100%;
-    }
+  .partners .bottom_partner img {
+    width: 100%;
+  }
 
-    .footer h6 {
-        font-size: 24px;
-        margin-bottom: 30px;
-    }
+  .footer h6 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
 
-    .footer .mark2 {
-        width: 94%;
-    }
+  .footer .mark2 {
+    width: 94%;
+  }
 
-    .footer .links ul li {
-        font-size: 15px;
-    }
+  .footer .links ul li {
+    font-size: 15px;
+  }
 
-    .footer {
-        padding: 70px 30px 70px 30px;
-        background-color: #5E6AA7;
-    }
+  .footer {
+    padding: 70px 30px 70px 30px;
+    background-color: #5e6aa7;
+  }
 
-    .footer .left,
-    .right,
-    .middle {
-        width: 33%;
-    }
+  .footer .left,
+  .right,
+  .middle {
+    width: 33%;
+  }
 
-    .footer .links ul li a {
-        color: white;
-        transition: all linear 0.4s;
-        font-size: 13px;
-    }
+  .footer .links ul li a {
+    color: white;
+    transition: all linear 0.4s;
+    font-size: 13px;
+  }
 
-    .footer .links ul li .icon {
-        margin-bottom: 20px;
-    }
+  .footer .links ul li .icon {
+    margin-bottom: 20px;
+  }
 
-    .about_banner {
-        height: 585px;
-    }
+  .about_banner {
+    height: 585px;
+  }
 
-    .about_banner .banner_mark h2 {
-        font-size: 56px;
-    }
+  .about_banner .banner_mark h2 {
+    font-size: 56px;
+  }
 
-    .about_founder .content {
-        padding: 60px 10px;
-    }
+  .about_founder .content {
+    padding: 60px 10px;
+  }
 
-    .about_founder .container p {
-        font-size: 20px;
-        text-align: center;
-        padding-top: 35px;
-    }
+  .about_founder .container p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+  }
 
-    #index-team .modal-dialog {
-        max-width: 95%;
-    }
+  #index-team .modal-dialog {
+    max-width: 95%;
+  }
 
-    .modal-body {
-        padding: 0rem;
-    }
-
-
+  .modal-body {
+    padding: 0rem;
+  }
 }
 
 /* // small tablet devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .banner .content h2 {
-        font-size: 32px;
-    }
+  .banner .content h2 {
+    font-size: 32px;
+  }
 
-    .live .main h4 {
-        font-size: 34px;
-        padding: 30px 0 0 0;
-    }
+  .live .main h4 {
+    font-size: 34px;
+    padding: 30px 0 0 0;
+  }
 
-    .live .main p {
-        font-size: 29px;
-        padding: 50px 0px 0 37px;
-        text-align: left;
-    }
+  .live .main p {
+    font-size: 29px;
+    padding: 50px 0px 0 37px;
+    text-align: left;
+  }
 
-    .touchable .content .top_content p {
-        font-size: 24px;
-        padding: 25px 0;
-    }
+  .touchable .content .top_content p {
+    font-size: 24px;
+    padding: 25px 0;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 14px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 14px;
+  }
 
-    .usability .content h2 {
-        font-size: 17px;
-        padding: 15px 0;
-        margin-top: 40px;
-    }
+  .usability .content h2 {
+    font-size: 17px;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
 
-    .usability_bottom {
-        padding-top: 0px;
-    }
+  .usability_bottom {
+    padding-top: 0px;
+  }
 
-    .usability img {
-        padding-top: 35px;
-    }
+  .usability img {
+    padding-top: 35px;
+  }
 
-    .commited .one h3 {
-        font-size: 32px;
-    }
+  .commited .one h3 {
+    font-size: 32px;
+  }
 
-    .commited .two p {
-        font-size: 25px;
-    }
+  .commited .two p {
+    font-size: 25px;
+  }
 
-    .commited .two h6 {
-        padding: 45px 70px 0 70px;
-        font-size: 23px;
-        margin-top: 12px;
-    }
+  .commited .two h6 {
+    padding: 45px 70px 0 70px;
+    font-size: 23px;
+    margin-top: 12px;
+  }
 
-    .commited .two::after {
-        height: 5px;
-        top: 25%;
-    }
+  .commited .two::after {
+    height: 5px;
+    top: 25%;
+  }
 
-    .partners .bottom_partner img {
-        width: 100%;
-    }
+  .partners .bottom_partner img {
+    width: 100%;
+  }
 
-    .partners {
-        padding: 100px 0;
-    }
+  .partners {
+    padding: 100px 0;
+  }
 
-    .footer .left,
-    .right,
-    .middle {
-        width: 33%;
-    }
+  .footer .left,
+  .right,
+  .middle {
+    width: 33%;
+  }
 
-    .footer .links ul li {
-        font-size: 19px;
-    }
+  .footer .links ul li {
+    font-size: 19px;
+  }
 
-    .footer {
-        padding: 70px 0px 85px 0;
-    }
+  .footer {
+    padding: 70px 0px 85px 0;
+  }
 
-    .footer .links ul li a {
-        color: white;
-        transition: all linear 0.4s;
-        font-size: 16px;
-    }
+  .footer .links ul li a {
+    color: white;
+    transition: all linear 0.4s;
+    font-size: 16px;
+  }
 
-    .footer .links ul li .icon {
-        margin-bottom: 10px;
-    }
+  .footer .links ul li .icon {
+    margin-bottom: 10px;
+  }
 
-    .about_founder .content {
-        padding: 100px 30px;
-    }
+  .about_founder .content {
+    padding: 100px 30px;
+  }
 
-    .about_founder .container p {
-        font-size: 20px;
-        text-align: center;
-        padding-top: 30px;
-    }
+  .about_founder .container p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
 
-    #index-team {
-        padding-top: 8px;
-        padding-bottom: 90px;
-    }
-
-
+  #index-team {
+    padding-top: 8px;
+    padding-bottom: 90px;
+  }
 }
 
 /* // medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .container {
-        max-width: 750px;
-    }
+  .container {
+    max-width: 750px;
+  }
 
-    .live {
-        padding: 55px 0;
-    }
+  .live {
+    padding: 55px 0;
+  }
 
-    .live .main h2 {
-        font-size: 93px;
-    }
+  .live .main h2 {
+    font-size: 93px;
+  }
 
-    .live .main h4 {
-        font-size: 22px;
-        line-height: 45px;
-    }
+  .live .main h4 {
+    font-size: 22px;
+    line-height: 45px;
+  }
 
-    .live .main p {
-        font-size: 23px;
-        padding: 51px 0px;
-    }
+  .live .main p {
+    font-size: 23px;
+    padding: 51px 0px;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 18px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 18px;
+  }
 
-    .usability .content h2 {
-        margin-top: 45px;
-    }
+  .usability .content h2 {
+    margin-top: 45px;
+  }
 
-    .usability_bottom {
-        padding-top: 0px;
-    }
+  .usability_bottom {
+    padding-top: 0px;
+  }
 
-    .usability img {
-        padding-top: 40px;
-    }
+  .usability img {
+    padding-top: 40px;
+  }
 
-    .commited .two p {
-        font-size: 29px;
-    }
+  .commited .two p {
+    font-size: 29px;
+  }
 
-    .commited .two h6 {
-        padding: 45px 150px 0 150px;
-        font-size: 23px;
-        margin-top: 12px;
-    }
+  .commited .two h6 {
+    padding: 45px 150px 0 150px;
+    font-size: 23px;
+    margin-top: 12px;
+  }
 
-    .commited .two::after {
-        height: 6px;
-        top: 29%;
-    }
+  .commited .two::after {
+    height: 6px;
+    top: 29%;
+  }
 
-    .commited .one h3 {
-        font-size: 31px;
-    }
+  .commited .one h3 {
+    font-size: 31px;
+  }
 
-    .partners .bottom_partner img {
-        width: 100%;
-    }
+  .partners .bottom_partner img {
+    width: 100%;
+  }
 
-    .partners .bottom_partner {
-        gap: 50px;
-    }
+  .partners .bottom_partner {
+    gap: 50px;
+  }
 
-    .partners {
-        padding: 80px 0;
-    }
+  .partners {
+    padding: 80px 0;
+  }
 
-    .footer {
-        padding: 70px 0px 80px 0;
-    }
+  .footer {
+    padding: 70px 0px 80px 0;
+  }
 
-    .footer .links ul li {
-        font-size: 20px;
-    }
+  .footer .links ul li {
+    font-size: 20px;
+  }
 
-    .footer .links ul li a {
-        color: white;
-        transition: all linear 0.4s;
-        font-size: 20px;
-    }
+  .footer .links ul li a {
+    color: white;
+    transition: all linear 0.4s;
+    font-size: 20px;
+  }
 
-    .about_banner {
-        height: 650px;
-    }
+  .about_banner {
+    height: 650px;
+  }
 
-    .about_founder .container p {
-        font-size: 22px;
-        text-align: center;
-        padding-top: 30px;
-    }
+  .about_founder .container p {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 30px;
+  }
 
-    .about_founder .content {
-        padding: 100px 50px;
-    }
+  .about_founder .content {
+    padding: 100px 50px;
+  }
 
-    #index-team {
-        padding-top: 8px;
-        padding-bottom: 100px;
-    }
-
+  #index-team {
+    padding-top: 8px;
+    padding-bottom: 100px;
+  }
 }
-
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .live .main h4 {
-        font-weight: 400;
-        line-height: 40px;
-        font-size: 26px;
-    }
+  .live .main h4 {
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 26px;
+  }
 
-    .live .main h5 {
-        font-size: 20px;
-    }
+  .live .main h5 {
+    font-size: 20px;
+  }
 
-    .live .main p {
-        font-size: 25px;
-        padding: 56px 0px;
-    }
+  .live .main p {
+    font-size: 25px;
+    padding: 56px 0px;
+  }
 
-    .live .main h2 {
-        font-size: 105px;
-    }
+  .live .main h2 {
+    font-size: 105px;
+  }
 
-    .live {
-        padding: 110px 0;
-    }
+  .live {
+    padding: 110px 0;
+  }
 
-    .touchable .content .top_content p {
-        font-size: 24px;
-    }
+  .touchable .content .top_content p {
+    font-size: 24px;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 15px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 15px;
+  }
 
-    .usability .content h2 {
-        font-size: 22px;
-    }
+  .usability .content h2 {
+    font-size: 22px;
+  }
 
-    .usability .content p {
-        font-size: 19px;
-        padding: 20px 0;
-    }
+  .usability .content p {
+    font-size: 19px;
+    padding: 20px 0;
+  }
 
-    .usability .content ul li {
-        font-size: 16px;
-        padding: 0 10px;
-        line-height: 34px;
-    }
+  .usability .content ul li {
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 34px;
+  }
 
-    .commited .one h3 {
-        font-size: 31px;
-    }
+  .commited .one h3 {
+    font-size: 31px;
+  }
 
-    .commited .two p {
-        font-size: 28px;
-    }
+  .commited .two p {
+    font-size: 28px;
+  }
 
-    .commited .two h6 {
-        padding: 45px 200px 0 200px;
-        font-size: 23px;
-        margin-top: 5px;
-    }
+  .commited .two h6 {
+    padding: 45px 200px 0 200px;
+    font-size: 23px;
+    margin-top: 5px;
+  }
 
-    .commited .two::after {
-        height: 7px;
-        top: 30%;
-    }
+  .commited .two::after {
+    height: 7px;
+    top: 30%;
+  }
 
-    .partners .bottom_partner {
-        gap: 60px;
-    }
+  .partners .bottom_partner {
+    gap: 60px;
+  }
 
-    .partners .bottom_partner img {
-        width: 100%;
-    }
+  .partners .bottom_partner img {
+    width: 100%;
+  }
 
-    .about_founder .founder_img {
-        width: 90%;
-    }
+  .about_founder .founder_img {
+    width: 90%;
+  }
 
-    .about_founder .founder_logo img {
-        width: 35%;
-    }
+  .about_founder .founder_logo img {
+    width: 35%;
+  }
 
-    .about_founder .container p {
-        font-size: 19px;
-    }
+  .about_founder .container p {
+    font-size: 19px;
+  }
 
-    .about_founder .content {
-        padding: 100px 50px;
-    }
+  .about_founder .content {
+    padding: 100px 50px;
+  }
 
-    #index-team {
-        padding-top: 8px;
-        padding-bottom: 100px;
-    }
+  #index-team {
+    padding-top: 8px;
+    padding-bottom: 100px;
+  }
 
-    #index-team .team-member-slider .memberImages .member-img .memeber__content p {
-        font-size: 19px;
-    }
-
+  #index-team
+    .team-member-slider
+    .memberImages
+    .member-img
+    .memeber__content
+    p {
+    font-size: 19px;
+  }
 }
-
 
 /*  XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1200px) and (max-width: 1499.98px) {
-    .touchable .touchable_bottom p {
-        padding-bottom: 25px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 25px;
+  }
 
-    .usability .content p {
-        padding: 35px 0;
-    }
+  .usability .content p {
+    padding: 35px 0;
+  }
 
-    .usability .content ul li {
-        font-size: 18px;
-    }
+  .usability .content ul li {
+    font-size: 18px;
+  }
 
-    .partners {
-        padding: 100px 0;
-    }
+  .partners {
+    padding: 100px 0;
+  }
 
-    .about_founder .founder_img {
-        width: 90%;
-    }
+  .about_founder .founder_img {
+    width: 90%;
+  }
 
-    .about_founder .founder_logo img {
-        width: 35%;
-    }
+  .about_founder .founder_logo img {
+    width: 35%;
+  }
 
-    .about_founder .content {
-        padding: 90px 50px;
-    }
+  .about_founder .content {
+    padding: 90px 50px;
+  }
 
-    #index-team {
-        padding-top: 0px;
-        padding-bottom: 100px;
-    }
+  #index-team {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
 }
 
 @media (min-width: 1500px) and (max-width: 1959.98px) {
-    .container {
-        max-width: 1230px;
-    }
+  .container {
+    max-width: 1230px;
+  }
 
-    .about_founder .founder_img {
-        width: 90%;
-    }
+  .about_founder .founder_img {
+    width: 90%;
+  }
 
-    .about_founder .founder_logo img {
-        width: 35%;
-    }
+  .about_founder .founder_logo img {
+    width: 35%;
+  }
 }
 
-
-
-
 @media (min-width: 1960px) and (max-width: 2259.98px) {
-    .container {
-        max-width: 1450px
-    }
+  .container {
+    max-width: 1450px;
+  }
 
-    .live .main p {
-        font-size: 36px;
-    }
+  .live .main p {
+    font-size: 36px;
+  }
 
-    .live .main h4 {
-        font-size: 40px;
-    }
+  .live .main h4 {
+    font-size: 40px;
+  }
 
-    .live .main h2 {
-        font-size: 170px;
-    }
+  .live .main h2 {
+    font-size: 170px;
+  }
 
-    .live .main h5 {
-        font-size: 32px;
-    }
+  .live .main h5 {
+    font-size: 32px;
+  }
 
-    .touchable .content .top_content p {
-        font-size: 32px;
-    }
+  .touchable .content .top_content p {
+    font-size: 32px;
+  }
 
-    .touchable .touchable_image img {
-        width: 84%;
-    }
+  .touchable .touchable_image img {
+    width: 84%;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 30px;
-        font-size: 28px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
 
-    .usability .content h2 {
-        font-size: 31px;
-    }
+  .usability .content h2 {
+    font-size: 31px;
+  }
 
-    .usability .content p {
-        font-size: 25px;
-    }
+  .usability .content p {
+    font-size: 25px;
+  }
 
-    .usability .content p {
-        font-size: 24px;
-    }
+  .usability .content p {
+    font-size: 24px;
+  }
 
-    .usability .content ul li {
-        font-size: 21px;
-    }
+  .usability .content ul li {
+    font-size: 21px;
+  }
 
-    .usability {
-        padding: 120px 0;
-    }
+  .usability {
+    padding: 120px 0;
+  }
 
-    .commited .two h6 {
-        padding: 45px 260px 0 260px;
-        font-size: 26px;
-    }
+  .commited .two h6 {
+    padding: 45px 260px 0 260px;
+    font-size: 26px;
+  }
 
-    #recent_update .recent_slide_item p {
-        font-size: 30px;
-    }
+  #recent_update .recent_slide_item p {
+    font-size: 30px;
+  }
 
-    #recent_update .recent_slide_item hr {
-        margin: 16px 0px;
-    }
+  #recent_update .recent_slide_item hr {
+    margin: 16px 0px;
+  }
 
-    .about_founder .container p {
-        font-size: 27px;
-    }
+  .about_founder .container p {
+    font-size: 27px;
+  }
 
-    .about_founder .founder_img {
-        width: 90%;
-    }
+  .about_founder .founder_img {
+    width: 90%;
+  }
 
-    .about_founder .founder_logo img {
-        width: 35%;
-    }
+  .about_founder .founder_logo img {
+    width: 35%;
+  }
 
-    #index-team .team-member-slider .memberImages .member-img .memeber__content p {
-        font-size: 21px;
-    }
+  #index-team
+    .team-member-slider
+    .memberImages
+    .member-img
+    .memeber__content
+    p {
+    font-size: 21px;
+  }
 
-    #index-team .modal .modal-body p {
-        font-size: 21px;
-    }
-
-
-
+  #index-team .modal .modal-body p {
+    font-size: 21px;
+  }
 }
 
 @media only screen and (min-width: 2260px) {
-    .container {
-        max-width: 1650px
-    }
+  .container {
+    max-width: 1650px;
+  }
 
-    .live .main p {
-        font-size: 41px;
-    }
+  .live .main p {
+    font-size: 41px;
+  }
 
-    .live .main h2 {
-        font-size: 184px;
-    }
+  .live .main h2 {
+    font-size: 184px;
+  }
 
-    .live .main h5 {
-        font-size: 34px;
-    }
+  .live .main h5 {
+    font-size: 34px;
+  }
 
-    .live .main .one span {
-        font-size: 44px;
-    }
+  .live .main .one span {
+    font-size: 44px;
+  }
 
-    .live .main h4 {
-        font-size: 44px;
-        line-height: 62px;
-    }
+  .live .main h4 {
+    font-size: 44px;
+    line-height: 62px;
+  }
 
-    .touchable .content .top_content p {
-        font-size: 35px;
-    }
+  .touchable .content .top_content p {
+    font-size: 35px;
+  }
 
-    .touchable .content .top_content h2 {
-        font-size: 50px;
-    }
+  .touchable .content .top_content h2 {
+    font-size: 50px;
+  }
 
-    .touchable .touchable_bottom p {
-        padding-bottom: 21px;
-        font-size: 31px;
-    }
+  .touchable .touchable_bottom p {
+    padding-bottom: 21px;
+    font-size: 31px;
+  }
 
-    .usability .content h2 {
-        font-size: 32px;
-    }
+  .usability .content h2 {
+    font-size: 32px;
+  }
 
-    .usability .content p {
-        font-size: 26px;
-    }
+  .usability .content p {
+    font-size: 26px;
+  }
 
-    .usability .content ul li {
-        font-size: 24px;
-        line-height: 43px;
-    }
+  .usability .content ul li {
+    font-size: 24px;
+    line-height: 43px;
+  }
 
-    .commited .two h6 {
-        padding: 45px 300px 0 300px;
-    }
+  .commited .two h6 {
+    padding: 45px 300px 0 300px;
+  }
 
-    #recent_update .recent_slide_item p {
-        font-size: 28px;
-    }
+  #recent_update .recent_slide_item p {
+    font-size: 28px;
+  }
 
-    .about_founder .founder_img {
-        width: 90%;
-    }
+  .about_founder .founder_img {
+    width: 90%;
+  }
 
-    .about_founder .founder_logo img {
-        width: 35%;
-    }
+  .about_founder .founder_logo img {
+    width: 35%;
+  }
 
-    .about_founder .container p {
-        font-size: 31px;
-    }
+  .about_founder .container p {
+    font-size: 31px;
+  }
 
-    #index-team {
-        padding-top: 0px;
-        padding-bottom: 112px;
-    }
+  #index-team {
+    padding-top: 0px;
+    padding-bottom: 112px;
+  }
 
-    #index-team .team-member-slider .memberImages .member-img .memeber__content p {
-        font-size: 25px;
-    }
+  #index-team
+    .team-member-slider
+    .memberImages
+    .member-img
+    .memeber__content
+    p {
+    font-size: 25px;
+  }
 
-    #index-team .modal .modal-body p {
-        font-size: 25px;
-    }
+  #index-team .modal .modal-body p {
+    font-size: 25px;
+  }
 }
