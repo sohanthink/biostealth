@@ -413,7 +413,7 @@
                             <ul>
                                 <li class="text-uppercase pb-2"><b>Company</b></li>
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">News</a></li>
+                                <li>News</li>
                                 <li><a href="#">Blog</a></li>
                             </ul>
                         </div>
@@ -467,45 +467,6 @@
 
 <script>
 
-
-
-    // function callREST() {
-    //     var xhttp = new XMLHttpRequest();
-    //     xhttp.onreadystatechange = function() {
-    //         if (this.readyState == 4 && this.status == 200) {
-
-    //             const objCount = JSON.parse(this.responseText);
-    //             document.getElementById("displayTodayCount").innerHTML = objCount.todayCount;
-    //             document.getElementById("displayTotalCount").innerHTML = objCount.totalCount;
-    //             document.getElementById("displayTotalHours").innerHTML = Math.round(objCount.totalCount/60);
-    //             document.getElementById("displayTodayHours").innerHTML = Math.round(objCount.todayCount/60);
-    //         }
-    //     };
-    //     xhttp.open("POST", "http://18.130.184.142:8080/api/AdminProfile/getFrameCount", true);
-    //     xhttp.send();
-    // }
-
-
-
-
-    // function callREST() {
-
-    // 			$.ajax({
-    // 				type: 'POST',
-    // 				url: "http://18.130.184.142:8080/api/AdminProfile/getFrameCount",
-    // 				dataType: 'json',
-    // 				success: function (res) {
-    // 						document.getElementById("displayTodayCount").innerHTML = res.todayCount;
-    // 						document.getElementById("displayTotalCount").innerHTML = res.totalCount;
-    // 				}
-    // 			});
-    //         }
-
-
-
-
-
-
     function callREST() {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
@@ -527,8 +488,6 @@
 
     // Call the function when the page loads
     window.onload = callREST;
-
-
 
 </script>
 
