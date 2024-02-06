@@ -138,6 +138,7 @@ ol {
   background-color: #d7d7d6;
   padding: 20px;
   border-radius: 20px;
+  margin-right: 30px;
 }
 .live .main .one span {
   font-size: 35px;
@@ -873,7 +874,9 @@ ol {
     margin-top: 10px;
     line-height: 36px;
   }
-
+  .live .main .one {
+    margin-right: 0px;
+  }
   .live .main h5 {
     font-size: 17px;
   }
@@ -1026,7 +1029,7 @@ ol {
   .about_founder .container p {
     font-size: 20px;
     text-align: center;
-    padding-top: 35px;
+    padding: 10px 30px;
   }
 
   #index-team .modal-dialog {
