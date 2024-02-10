@@ -43,6 +43,9 @@ ol {
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
+.list_color {
+  color: rgb(232, 156, 14);
+}
 
 .menu {
   padding: 20px 0;
@@ -241,7 +244,7 @@ ol {
 
 .touchable .touchable_bottom h6 {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -270,7 +273,7 @@ ol {
 .technology .content span {
   padding-top: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -287,10 +290,12 @@ ol {
 .usability img {
   border-radius: 15%;
 }
-
+.usability .content {
+  padding: 10px;
+}
 .usability .content p {
   font-size: 20px;
-  padding: 40px 0;
+  padding: 25px 0;
 }
 
 .usability .content h2 {
@@ -303,10 +308,8 @@ ol {
 }
 
 .usability .content ul li {
-  list-style-type: disc;
-  font-size: 19px;
-  padding: 0 10px;
-  line-height: 35px;
+  font-size: 17px;
+  line-height: 60px;
 }
 
 .usability .content ul li::marker {
@@ -323,7 +326,7 @@ ol {
   align-items: center;
 }
 .usability_bottom .content .data .data_content {
-  width: 30%;
+  width: 35%;
   background-color: #d7d7d6;
   padding: 15px;
   border-radius: 20px;
@@ -573,10 +576,11 @@ ol {
 .about_banner .banner_mark h2::before {
   content: "";
   position: absolute;
-  width: 147px;
-  transform: translateX(40%);
+  width: 165px;
+  transform: translate(-50%, -120%);
   border: 3px solid rgb(217, 142, 4);
-  top: 95px;
+  top: 120%;
+  left: 50%;
 }
 
 /* ------------------------------------------------------
@@ -843,6 +847,164 @@ ol {
 }
 
 /*  ============================
+          about page  css
+  ============================ */
+
+#contact-banner {
+  text-align: center;
+  background: #929dca;
+}
+
+#contact-banner h3 {
+  padding-top: 68px;
+  padding-bottom: 16px;
+}
+
+#contact-banner ol li {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a67b2;
+}
+
+#contact-form {
+  background: #fafafa;
+  padding-bottom: 88px;
+  padding-top: 53px;
+}
+#contact-form .main {
+  display: flex;
+  justify-content: center;
+}
+#contact-form .lert-success {
+  position: absolute;
+  left: 50%;
+  top: 222px;
+  transform: translateX(-50%);
+  width: 272px;
+  padding: 35px 22px 46px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  background: white;
+  text-align: center !important;
+  z-index: 999;
+}
+#contact-form .lert-success p {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8d97d7;
+  text-align: left;
+  margin-top: 19px;
+}
+#contact-form .lert-success i {
+  font-size: 16px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  background: #8d97d7;
+}
+#contact-form form {
+  background: #929dca;
+  padding: 50px;
+  border-radius: 70px;
+  text-align: center;
+  width: 80%;
+}
+#contact-form form h3 {
+  padding-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 40px;
+}
+#contact-form input {
+  width: 100%;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  margin-bottom: 35px;
+  border: 0;
+  padding: 12px 10px;
+  background-color: white;
+}
+#contact-form textarea {
+  width: 100%;
+  height: 100px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  margin-bottom: 20px;
+  border: 0;
+  background-color: white;
+}
+#contact-form button {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  background: rgba(90, 103, 178, 0.8);
+  display: inline-block;
+  border: 1px solid rgba(90, 103, 178, 0);
+  padding: 0 50px;
+  margin: 0 auto;
+  -webkit-transition: all linear 0.3s 0s;
+  -moz-transition: all linear 0.3s 0s;
+  -o-transition: all linear 0.3s 0s;
+  transition: all linear 0.3s 0s;
+  margin-top: 30px;
+}
+#contact-form button:hover {
+  color: rgba(90, 103, 178, 0.8);
+  background: white;
+  border: 1px solid #5a67b2;
+}
+
+/*  ============================
+      contact  info css 
+============================ */
+
+.contact_info {
+  background: #fafafa;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #5a6baf;
+}
+.contact_info h3 {
+  color: #5463b7;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+.contact_info p {
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+/*  ============================
           core team part end
   ============================ */
 
@@ -851,9 +1013,11 @@ ol {
   .banner .content h2 {
     font-size: 22px;
   }
+
   .live .main .one span {
     font-size: 22px;
   }
+
   .live .main .title h6 {
     font-size: 20px;
     padding-top: 8px;
@@ -874,9 +1038,11 @@ ol {
     margin-top: 10px;
     line-height: 36px;
   }
+
   .live .main .one {
     margin-right: 0px;
   }
+
   .live .main h5 {
     font-size: 17px;
   }
@@ -884,24 +1050,30 @@ ol {
   .touchable {
     padding: 10px;
   }
+
   .technology h3 {
     font-size: 22px;
   }
+
   .technology .content span {
     padding-top: 20px;
     display: block;
   }
+
   .technology .content {
     padding: 40px;
   }
+
   .usability_bottom .content .data_content h4 {
     font-size: 45px;
   }
+
   .usability_bottom .content .data .data_content .data_content_active {
     display: flex;
     gap: 8px;
     flex-direction: column;
   }
+
   .technology .content img {
     width: 66%;
     padding-bottom: 10px;
@@ -910,6 +1082,7 @@ ol {
   .touchable .content .top_content h2 {
     text-align: center;
   }
+
   .touchable .content .top_content p {
     font-size: 23px;
     padding-bottom: 30px;
