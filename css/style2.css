@@ -68,6 +68,7 @@ ol {
 .menu nav ul li a {
   color: rgb(255, 255, 255);
   white-space: nowrap;
+  font-size: 20px;
 }
 
 /* .menu nav .nav-item.active {
