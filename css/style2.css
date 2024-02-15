@@ -409,12 +409,22 @@ ol {
   padding: 150px 0;
 }
 
+.partners img {
+  width: 100%;
+}
 .partners h2 {
   font-size: 59px;
   font-weight: 400;
   color: #3d3d3d;
   text-align: center;
   padding: 0px 0 100px 0;
+}
+.partners .top_partner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 60px 0;
 }
 
 .partners .bottom_partner {
@@ -1150,7 +1160,7 @@ ol {
     gap: 20px;
   }
 
-  .partners .bottom_partner img {
+  .partners img {
     width: 100%;
   }
 
