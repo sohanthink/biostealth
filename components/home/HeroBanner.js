@@ -20,7 +20,7 @@ const HeroBanner = () => {
       <div className="relative z-10 flex flex-col justify-center h-full container space-y-4 md:space-y-7 p-5 md:p-0 md:pt-28">
         <h1 className="me-[700px]">Touchable cardiovascular Surfaces.</h1>
         <p className="text-white me-[700px]">
-          A serface level phychological sensing architecture that activates on
+          A surface-level physiological sensing architecture that activates on
           touch and streams only quality-gated signals.
         </p>
         <div className="flex space-x-4">
@@ -37,7 +37,9 @@ const HeroBanner = () => {
             varient="webinar"
           />
         </div>
-        <p className="text-white">not looking for an introduction to EEG?</p>
+        <p className="text-white">
+          TCS activating only at the point of contact.
+        </p>
       </div>
     </section>
   );
