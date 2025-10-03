@@ -47,7 +47,7 @@ const Navbar = () => {
                 : "bg-transparent"
                 }`}
         >
-            <div className="w-full container">
+            <div className="w-full container px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 md:h-20">
                     <Link href="/" className="flex items-center justify-center space-x-2">
                         <Image

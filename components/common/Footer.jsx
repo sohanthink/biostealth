@@ -81,7 +81,7 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white">
             {/* Main Footer Content */}
-            <div className="w-full container px-8 lg:px-12 py-16">
+            <div className="w-full container px-4 sm:px-6 lg:px-12 py-12 lg:py-16">
                 <div className="grid lg:grid-cols-5 gap-12">
                     <div className="lg:col-span-2">
                         <Link href="/" className="flex items-center space-x-2 mb-6">
@@ -145,7 +145,7 @@ const Footer = () => {
             </div>
 
             <div className="border-t border-[var(--foreground-muted)]/20">
-                <div className="w-full container px-8 lg:px-12 py-6">
+                <div className="w-full container px-4 sm:px-6 lg:px-12 py-6">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         {/* Copyright */}
                         <div className="text-foreground-muted text-sm">

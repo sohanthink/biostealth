@@ -118,7 +118,7 @@ export default function PartnerPrograms() {
       />
 
       {/* Content */}
-      <div className="relative z-10 w-full container">
+      <div className="relative z-10 w-full container px-4 sm:px-6 lg:px-8">
         <div className="space-y-12">
           {/* Section Header */}
           <div className="text-center space-y-4">

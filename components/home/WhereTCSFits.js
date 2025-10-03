@@ -143,8 +143,8 @@ const WhereTCSFits = () => {
       aria-labelledby="where-tcs-fits-heading"
     >
       {/* Content */}
-      <div className="w-full container px-8 lg:px-12">
-        <div className="space-y-16">
+      <div className="w-full container px-4 sm:px-6 lg:px-12">
+        <div className="space-y-12 lg:space-y-16">
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto">
             {/* Kicker */}

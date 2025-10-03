@@ -57,8 +57,8 @@ const ArchitectureTeaser = () => {
       aria-labelledby="architecture-teaser-heading"
     >
       {/* Content */}
-      <div className="w-full container px-8 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="w-full container px-4 sm:px-6 lg:px-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left Column - Content */}
           <div className="space-y-8">
             {/* Kicker */}

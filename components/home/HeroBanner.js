@@ -17,27 +17,29 @@ const HeroBanner = () => {
       {/* <div className="absolute inset-0 bg-gradient-to-r from-[#000]/100 to-[#000]/10"></div> */}
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col justify-center h-full container space-y-4 md:space-y-7 p-5 md:p-0 md:pt-28">
-        <h1 className="me-[700px]">Touchable cardiovascular Surfaces.</h1>
-        <p className="text-white me-[700px]">
+      <div className="relative z-10 flex flex-col justify-center h-full container space-y-4 md:space-y-7 p-4 sm:p-6 md:p-8 lg:p-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight max-w-4xl">
+          Touchable cardiovascular Surfaces.
+        </h1>
+        <p className="text-white/90 text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl leading-relaxed">
           A surface-level physiological sensing architecture that activates on
           touch and streams only quality-gated signals.
         </p>
-        <div className="flex space-x-4">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <PrimaryButton
             text="Start Learning"
             link="https://study.embeddedexpert.io/"
-            cn="inline"
+            cn="w-full sm:w-auto"
             varient="webinar"
           />
           <SecondaryButton
             text="Start Learning"
             link="https://study.embeddedexpert.io/"
-            cn="inline"
+            cn="w-full sm:w-auto"
             varient="webinar"
           />
         </div>
-        <p className="text-white">
+        <p className="text-white/80 text-sm sm:text-base">
           TCS activating only at the point of contact.
         </p>
       </div>
