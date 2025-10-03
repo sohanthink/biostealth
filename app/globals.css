@@ -66,8 +66,56 @@ body {
     @apply py-8 md:py-20;
   }
 
-  /* Font utility classes */
+  /* Black gradient backgrounds */
+  .black-bg {
+    background: linear-gradient(
+      135deg,
+      #0a0a0a 0%,
+      #06022d 25%,
+      #0d0d0d 50%,
+      #1f1f1f 75%,
+      #0a0a0a 100%
+    );
+  }
 
+  .black-bg-subtle {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+  }
+
+  .black-bg-dark {
+    background: linear-gradient(
+      135deg,
+      #000000 0%,
+      #0a0a0a 25%,
+      #000000 50%,
+      #0d0d0d 75%,
+      #000000 100%
+    );
+  }
+
+  .black-bg-warm {
+    background: linear-gradient(
+      135deg,
+      #0a0a0a 0%,
+      #1a1a1a 25%,
+      #0d0d0d 50%,
+      #1f1f1f 75%,
+      #0a0a0a 100%
+    );
+  }
+
+  .black-bg-cool {
+    background: linear-gradient(
+      135deg,
+      #000000 0%,
+      #0f0f0f 25%,
+      #1a1a1a 50%,
+      #0f0f0f 75%,
+      #000000 100%
+    );
+  }
+
+  /* Font utility classes */
   .font-inter {
     font-family: var(--font-inter), system-ui, sans-serif;
   }

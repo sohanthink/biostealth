@@ -45,23 +45,23 @@ export default function KeyStats() {
   const stats = [
     {
       id: "patents",
-      metric: "29-pons",
+      metric: "29",
       unit: "patents granted and pending",
-      caption: "GO ano Onsproaaire -40 and ELI hnyoresis",
+      caption: "GB and CN granted - US and EU in process",
       proofLink: "/patents",
     },
     {
       id: "pilots",
       metric: "11",
       unit: "pilots completed",
-      caption: "Pitsd soretic orociater the wovetl dne ctores",
+      caption: "Field validation across real-world use cases",
       proofLink: "/validation",
     },
     {
       id: "signals",
       metric: "20M",
       unit: "signals captured",
-      caption: "Uocss nereriontdconnogiorgost ountors",
+      caption: "Quality-gated physiological data in production conditions",
       proofLink: "/validation",
     },
   ];
@@ -93,7 +93,7 @@ export default function KeyStats() {
                   }`}
                 >
                   {/* Stat Card */}
-                  <div className="relative p-8">
+                  <div className="relative">
                     {/* Metric */}
                     <div className="mb-4">
                       <span className="text-4xl lg:text-5xl font-bold text-white">
