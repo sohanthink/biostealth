@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #3660c4;
+  --color-black: #0d0e10;
+  --color-gray: #1b1e22;
+  --spacing-120: 120px;
+
+  /* Font families */
+  --font-inter: var(--font-inter);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Custom container styles */
+@layer utilities {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    max-width: var(--container-max-width);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  @media (min-width: 640px) {
+    .container {
+      --container-padding: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      --container-padding: 2rem;
+      --container-max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      --container-padding: 2.5rem;
+      --container-max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container {
+      --container-padding: 3rem;
+      --container-max-width: 90%;
+    }
   }
 }
 
+/* Set default body font to Inter */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+@layer components {
+  .primary-button {
+    @apply bg-primary cursor-pointer text-white px-6 py-3 font-bold font-inter transition-all duration-300 transform hover:bg-primary/95 hover:shadow-xl active:scale-95 text-sm md:text-[15px] rounded-xl inline-block w-fit;
+  }
+  .secondary-button {
+    @apply cursor-pointer text-white px-6 py-3 font-bold font-inter transition-all duration-300 transform hover:bg-primary/95 hover:shadow-xl active:scale-95 text-sm md:text-[15px] rounded-xl inline-block w-fit;
+  }
+
+  .section-padding {
+    @apply py-8 md:py-20;
+  }
+
+  /* Font utility classes */
+
+  .font-inter {
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+}
+
+/* Set all headings to use Manrope */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+h1 {
+  @apply text-4xl md:text-[80px] font-bold text-white leading-none md:leading-[76px];
+}
+
+h2 {
+  @apply text-2xl md:text-5xl font-bold text-white;
+}
+
+h3 {
+  @apply text-lg font-bold  md:text-2xl;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
