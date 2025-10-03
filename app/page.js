@@ -12,10 +12,10 @@ export default function Home() {
       <HeroBanner />
       <KeyStats />
       <ArchitectureTeaser />
+      <PartnerPrograms />
       <WhereTCSFits />
       <WorkWithUs />
       <InsightStrips />
-      <PartnerPrograms />
     </main>
   );
 }
